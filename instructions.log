@@ -1,0 +1,79 @@
+loc_0 - CODE: 0x00007BE0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x381E35AD0689E81D(#381E35AD0689E81D)
+            loc_1 - CODE: 0x00007BE8 0C 31 6F 00 DC::kLoadU16Immediate: R49, 111 | (0 << 0x8)
+            loc_2 - CODE: 0x00007BF0 1C 00 00 01 DC::kCallFf: ( #381E35AD0689E81D '#000000000000006F )
+            loc_3 - CODE: 0x00007BF8 2F 10 00 00 DC::kBranchIfNot: B loc_16
+            loc_4 - CODE: 0x00007C00 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_5 - CODE: 0x00007C08 4A 01 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_6 - CODE: 0x00007C10 15 03 03 00 DC::kLookupInteger/kLookupFloat: R3 R3 -> hashid: 0x78976751233F90AB(#78976751233F90AB)
+            loc_7 - CODE: 0x00007C18 1B 03 03 00 DC::kCall: ( #78976751233F90AB )
+            loc_8 - CODE: 0x00007C20 0C 32 02 00 DC::kLoadU16Immediate: R50, 2 | (0 << 0x8)
+            loc_9 - CODE: 0x00007C28 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_10 - CODE: 0x00007C30 1A 32 32 00 DC::kCastFloat: S50, S50
+            loc_11 - CODE: 0x00007C38 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_12 - CODE: 0x00007C40 0C 34 01 00 DC::kLoadU16Immediate: R52, 1 | (0 << 0x8)
+            loc_13 - CODE: 0x00007C48 1B 00 00 04 DC::kCall: ( start-timer 'countdown-timer '#0000000000000000 '#78976751233F90AB '#0000000000000001 )
+            loc_14 - CODE: 0x00007C50 4A 31 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 3F2DAB8D17ED29AC(#3F2DAB8D17ED29AC)
+            loc_15 - CODE: 0x00007C58 4A 33 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R51, 2D19E518D40792B7(self)
+            loc_16 - CODE: 0x00007C60 1B 00 00 04 DC::kCall: ( start-timer '#3F2DAB8D17ED29AC '#0000000000000000 'self '#0000000000000001 )
+            loc_17 - CODE: 0x00007C68 4A 31 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 663A27CA51B2DA68(#663A27CA51B2DA68)
+            loc_18 - CODE: 0x00007C70 1B 00 00 04 DC::kCall: ( start-timer '#663A27CA51B2DA68 '#0000000000000000 'self '#0000000000000001 )
+            loc_19 - CODE: 0x00007C78 00 00 00 00 DC::kScriptCodeReturn: 0xDE501F9391C784C7
+
+
+loc_0 - CODE: 0x00009648 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x4277EB0D5F4C59F2(send-event)
+loc_1 - CODE: 0x00009650 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, B4B969AB87491E91(#B4B969AB87491E91)
+loc_2 - CODE: 0x00009658 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x78976751233F90AB(#78976751233F90AB)
+loc_3 - CODE: 0x00009660 1B 02 02 00 DC::kCall: ( #78976751233F90AB )
+loc_4 - CODE: 0x00009668 15 03 03 00 DC::kLookupInteger/kLookupFloat: R3 R3 -> hashid: 0x332313EC0E2CB328(new-boxed-value)
+loc_5 - CODE: 0x00009670 0C 04 07 00 DC::kLoadU16Immediate: R4, 7 | (0 << 0x8)
+loc_6 - CODE: 0x00009678 4A 05 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 5AFA5A59575D93C8(#5AFA5A59575D93C8)
+loc_7 - CODE: 0x00009680 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+loc_8 - CODE: 0x00009688 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+loc_9 - CODE: 0x00009690 1C 03 03 02 DC::kCallFf: ( new-boxed-value '#0000000000000007 '#5AFA5A59575D93C8 )
+loc_10 - CODE: 0x00009698 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+loc_11 - CODE: 0x000096A0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+loc_12 - CODE: 0x000096A8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+loc_13 - CODE: 0x000096B0 1C 00 00 03 DC::kCallFf: ( send-event '#B4B969AB87491E91 '#78976751233F90AB 'new-boxed-value )
+loc_14 - CODE: 0x000096B8 00 00 00 00 DC::kScriptCodeReturn: 0x4277EB0D5F4C59F2
+
+
+===== SET FLOAT ZERO
+15 00 01 00 00 00 00 00 4A 31 02 00 00 00 00 00 15 03 03 00 00 00 00 00 1B 03 03 00 00 00 00 00 0C 32 02 00 00 00 00 00 1A 32 32 00 00 00 00 00 43 33 03 00 00 00 00 00 0C 34 01 00 00 00 00 00 1B 00 00 04 00 00 00 00 4A 00 06 00 00 00 00 00 4A 31 04 00 00 00 00 00
+
+ loc_0 - CODE: 0x00007BE0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x381E35AD0689E81D(#381E35AD0689E81D)
+            loc_1 - CODE: 0x00007BE8 0C 31 6F 00 DC::kLoadU16Immediate: R49, 111 | (0 << 0x8)
+            loc_2 - CODE: 0x00007BF0 1C 00 00 01 DC::kCallFf: ( #381E35AD0689E81D '#000000000000006F )
+            loc_3 - CODE: 0x00007BF8 2F 13 00 00 DC::kBranchIfNot: B loc_19
+            loc_4 - CODE: 0x00007C00 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_5 - CODE: 0x00007C08 4A 01 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_6 - CODE: 0x00007C10 15 03 03 00 DC::kLookupInteger/kLookupFloat: R3 R3 -> hashid: 0x78976751233F90AB(#78976751233F90AB)
+            loc_7 - CODE: 0x00007C18 1B 03 03 00 DC::kCall: ( #78976751233F90AB )
+            loc_8 - CODE: 0x00007C20 0C 32 02 00 DC::kLoadU16Immediate: R50, 2 | (0 << 0x8)
+            loc_9 - CODE: 0x00007C28 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_10 - CODE: 0x00007C30 1A 32 32 00 DC::kCastFloat: S50, S50
+            loc_11 - CODE: 0x00007C38 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_12 - CODE: 0x00007C40 0C 34 01 00 DC::kLoadU16Immediate: R52, 1 | (0 << 0x8)
+            loc_13 - CODE: 0x00007C48 1B 00 00 04 DC::kCall: ( start-timer 'countdown-timer '#0000000000000000 '#78976751233F90AB '#0000000000000001 )
+            loc_14 - CODE: 0x00007C50 4A 31 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, A61278CFA41FC751(pause-timer)
+            loc_15 - CODE: 0x00007C58 1B 00 00 04 DC::kCall: ( start-timer 'pause-timer '#0000000000000000 '#78976751233F90AB '#0000000000000001 )
+            loc_16 - CODE: 0x00007C60 4A 31 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 254979EBFEBAB098(#254979EBFEBAB098)
+            loc_17 - CODE: 0x00007C68 1B 00 00 04 DC::kCall: ( start-timer '#254979EBFEBAB098 '#0000000000000000 '#78976751233F90AB '#0000000000000001 )
+            loc_18 - CODE: 0x00007C70 00 00 00 00 DC::kScriptCodeReturn: 0xDE501F9391C784C7
+
+
+    loc_0 - CODE: 0x00007BE0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x381E35AD0689E81D(#381E35AD0689E81D)
+            loc_1 - CODE: 0x00007BE8 0C 31 6F 00 DC::kLoadU16Immediate: R49, 111 | (0 << 0x8)
+            loc_2 - CODE: 0x00007BF0 1C 00 00 01 DC::kCallFf: ( #381E35AD0689E81D '#000000000000006F )
+            loc_3 - CODE: 0x00007BF8 2F 13 00 00 DC::kBranchIfNot: B loc_19
+            loc_4 - CODE: 0x00007C00 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_5 - CODE: 0x00007C08 4A 31 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 9F177261FB39347C(countdown-timer)
+            loc_6 - CODE: 0x00007C10 15 03 03 00 DC::kLookupInteger/kLookupFloat: R3 R3 -> hashid: 0x78976751233F90AB(#78976751233F90AB)
+            loc_7 - CODE: 0x00007C18 1B 03 03 00 DC::kCall: ( #78976751233F90AB )
+            loc_8 - CODE: 0x00007C20 0C 32 02 00 DC::kLoadU16Immediate: R50, 2 | (0 << 0x8)
+            loc_9 - CODE: 0x00007C28 1A 32 32 00 DC::kCastFloat: S50, S50
+            loc_10 - CODE: 0x00007C30 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_11 - CODE: 0x00007C38 0C 34 01 00 DC::kLoadU16Immediate: R52, 1 | (0 << 0x8)
+            loc_12 - CODE: 0x00007C40 1B 00 00 04 DC::kCall: ( start-timer 'countdown-timer '#0000000000000000 '#78976751233F90AB '#0000000000000001 )
+            loc_13 - CODE: 0x00007C48 4A 00 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R0, 08953907B53F670B(go)
+            loc_14 - CODE: 0x00007C50 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A3EC5D54575BD337(assault-wave-active)
+            loc_15 - CODE: 0x00007C58 00 00 00 00 DC::kScriptCodeReturn: 0x08953907B53F670B

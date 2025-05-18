@@ -1,0 +1,17 @@
+ loc_0 - CODE: 0x000090E8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x734BC279CB253609(#734BC279CB253609)
+            loc_1 - CODE: 0x000090F0 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0x88547F48DA223122(get-int32)
+            loc_2 - CODE: 0x000090F8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 72E01BEEBCB61949(#72E01BEEBCB61949)
+            loc_3 - CODE: 0x00009100 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00009108 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x00009110 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x00009118 1C 01 01 02 DC::kCallFf: ( get-int32 '#72E01BEEBCB61949 'self )
+            loc_7 - CODE: 0x00009120 15 02 01 00 DC::kLookupInteger/kLookupFloat: R2 R1 -> hashid: 0x88547F48DA223122(get-int32)
+            loc_8 - CODE: 0x00009128 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 01C106F49395A698(num-waves)
+            loc_9 - CODE: 0x00009130 4A 04 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 0FCC25C0CB675047(#0FCC25C0CB675047)
+            loc_10 - CODE: 0x00009138 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_11 - CODE: 0x00009140 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_12 - CODE: 0x00009148 1C 02 02 02 DC::kCallFf: ( get-int32 'num-waves '#0FCC25C0CB675047 )
+            loc_13 - CODE: 0x00009150 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_14 - CODE: 0x00009158 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_15 - CODE: 0x00009160 1B 00 00 02 DC::kCall: ( #734BC279CB253609 'get-int32 'get-int32 )
+            loc_16 - CODE: 0x00009168 00 00 00 00 DC::kScriptCodeReturn: 0x734BC279CB253609
