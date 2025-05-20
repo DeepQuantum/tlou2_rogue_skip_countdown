@@ -77,3 +77,9 @@ loc_14 - CODE: 0x000096B8 00 00 00 00 DC::kScriptCodeReturn: 0x4277EB0D5F4C59F2
             loc_13 - CODE: 0x00007C48 4A 00 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R0, 08953907B53F670B(go)
             loc_14 - CODE: 0x00007C50 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A3EC5D54575BD337(assault-wave-active)
             loc_15 - CODE: 0x00007C58 00 00 00 00 DC::kScriptCodeReturn: 0x08953907B53F670B
+
+
+
+
+            BRANCHES:
+            9970 -> 41?
