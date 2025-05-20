@@ -1,0 +1,9 @@
+LookupPointer r0, get-int
+LoadStaticU64Imm r49, 0x65B7E19A71455142
+LoadStaticU64Imm r50, self
+Call r0, r0, 1
+LookupPointer r1, set-int32
+LoadStaticU64Imm r49, 0xD61E4E4F13F92098   
+MoveInt r50, r0
+LoadStaticU64Imm r50, self
+Call r1, r1, 2

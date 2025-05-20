@@ -1,0 +1,14 @@
+00000000    15 00 00 00 00 00 00 00  00    LookupPointer            r0, get-int
+00000008    4A 31 01 00 00 00 00 00  01    LoadStaticU64Imm         r49, 0x65B7E19A71455142                         ; r49 = "0x65B7E19A71455142"
+00000010    4A 32 02 00 00 00 00 00  02    LoadStaticU64Imm         r50, 0x2D19E518D40792B7                         ; r50 = "self"
+00000018    1B 00 00 01 00 00 00 00  03    Call                     r0, r0, 1                                       ; call, 1 args
+00000020    15 01 03 00 00 00 00 00  04    LookupPointer            r1, set-int32
+00000028    4A 31 04 00 00 00 00 00  05    LoadStaticU64Imm         r49, 0xD61E4E4F13F92098                         ; r49 = "0xD61E4E4F13F92098"
+00000030    16 32 00 00 00 00 00 00  06    MoveInt                  r50, r0, r0
+00000038    4A 32 02 00 00 00 00 00  07    LoadStaticU64Imm         r50, 0x2D19E518D40792B7                         ; r50 = "self"
+00000040    1B 01 01 02 00 00 00 00  08    Call                     r1, r1, 2                                       ; call, 2 args
+00000048    3F EB D1 A7 43 A5 15 04     0415A543A7D1EB3F       get-int
+00000050    42 51 45 71 9A E1 B7 65     65B7E19A71455142       0x65B7E19A71455142
+00000058    B7 92 07 D4 18 E5 19 2D     2D19E518D40792B7       self
+00000060    96 9C BB 13 62 CE 56 CF     CF56CE6213BB9C96       set-int32
+00000068    98 20 F9 13 4F 4E 1E D6     D61E4E4F13F92098       0xD61E4E4F13F92098
