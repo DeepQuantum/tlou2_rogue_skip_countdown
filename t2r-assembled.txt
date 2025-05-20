@@ -1,0 +1,17 @@
+00000000    15 00 00 00 00 00 00 00  00    LookupPointer            r0, timer-running?
+00000008    4A 31 01 00 00 00 00 00  01    LoadStaticU64Imm         r49, 0x9F177261FB39347C                         ; r49 = "countdown-timer"
+00000010    4A 32 02 00 00 00 00 00  02    LoadStaticU64Imm         r50, 0x2D19E518D40792B7                         ; r50 = "self"
+00000018    1B 00 00 02 00 00 00 00  03    Call                     r0, r0, 2                                       ; call, 2 args
+00000020    2F 0C 00 00 00 00 00 00  04    BranchIfNot              00000060, r0                                    ; if (!r0) goto 00000060
+00000028    15 00 03 00 00 00 00 00  05    LookupPointer            r0, start-timer
+00000030    4A 31 01 00 00 00 00 00  06    LoadStaticU64Imm         r49, 0x9F177261FB39347C                         ; r49 = "countdown-timer"
+00000038    0C 32 02 00 00 00 00 00  07    LoadU16Imm               r50, 2                                          ; r50 = 2
+00000040    1A 32 32 00 00 00 00 00  08    CastFloat                r50, r50, r0
+00000048    4A 33 02 00 00 00 00 00  09    LoadStaticU64Imm         r51, 0x2D19E518D40792B7                         ; r51 = "self"
+00000050    0C 34 01 00 00 00 00 00  0A    LoadU16Imm               r52, 1                                          ; r52 = 1
+00000058    1B 00 00 04 00 00 00 00  0B    Call                     r0, r0, 4                                       ; call, 4 args
+00000060    00 00 00 00 00 00 00 00  0C    Return                   r0
+00000068    31 BB D3 39 74 BC 32 69     6932BC7439D3BB31       timer-running?
+00000070    7C 34 39 FB 61 72 17 9F     9F177261FB39347C       countdown-timer
+00000078    B7 92 07 D4 18 E5 19 2D     2D19E518D40792B7       self
+00000080    C7 84 C7 91 93 1F 50 DE     DE501F9391C784C7       start-timer

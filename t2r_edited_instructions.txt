@@ -1,0 +1,24 @@
+main: 5850
+5840: 15 -> 00
+0x000060D0: 15 -> 00
+0x00003EA8: 15 -> 00
+
+1A20 is the location of the pointer of the pointer to the first lambda in the #29 event
+i need to change the value at 1A20 to the location of the pointer to the dead lambda
+
+so 1A20 becomes 2A88, because thats the location of the pointer to the dead code
+
+
+* find instruction pointer of lambda you want to redirect (in my case lambda 1 in event #297F120B64AEE026 in ss-w-t2r, so address 3EA8)
+* search for that pointer value, that location will have another pointer
+* search for that pointer value, it'll have as many hits as there are (events/tracks?) that reference that lambda
+* go to one of those locations and change the pointer to the lambda you got by doing the same process as above but with the lambda you want to point to
+
+so in my case:
+* current lambda start -> 3ea8
+* search for 3ea8 -> pointer 21f0
+* search for 21f0 -> locations 1908 and 1a20
+* trial/error find that 1a20 is the lambda i want to change
+* go to lambda you want to redirect to, in my case 5A48
+* search for 5A48 -> location 2a88
+* replace value at 1a20 with 2a88

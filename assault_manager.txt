@@ -1,0 +1,18 @@
+LookupPointer            r0, 0x381E35AD0689E81D
+LoadU16Imm               r49, 111
+CallFf                   r0, r0, 1
+BranchIfNot              LABEL_RETURN, r0
+LookupPointer            r0, send-event
+LoadStaticU64Imm         r49, 0x297F120B64AEE026
+LoadStaticU64Imm         r50, 0x5D3F19ABB2853A53
+CallFf                   r0, r0, 2
+LookupPointer            r0, 0xCF56CE6213BB9C96
+LoadStaticU64Imm         r49, 0x43BB5B02C306A900
+LoadU16Imm               r50, 1
+LoadStaticU64Imm         r51, self
+CallFf                   r0, r0, 3
+LookupPointer            r0, 0xCF56CE6213BB9C96
+LoadStaticU64Imm         r49, 0xF41F3CA3F2CE93BC
+CallFf                   r0, r0, 3
+LABEL_RETURN:
+Return                   r0
