@@ -1,7 +1,7 @@
 00000000    15 00 00 00 00 00 00 00  00    LookupPointer            r0, 0x381E35AD0689E81D
 00000008    0C 31 6F 00 00 00 00 00  01    LoadU16Imm               r49, 111                                        ; r49 = 111
 00000010    1C 00 00 01 00 00 00 00  02    CallFf                   r0, r0, 1                                       ; far call, 1 args
-00000018    2F 13 00 00 00 00 00 00  03    BranchIfNot              00000098, r0                                    ; if (!r0) goto 00000098
+00000018    2F 1C 00 00 00 00 00 00  03    BranchIfNot              000000E0, r0                                    ; if (!r0) goto 000000E0
 00000020    15 00 01 00 00 00 00 00  04    LookupPointer            r0, send-event
 00000028    4A 31 02 00 00 00 00 00  05    LoadStaticU64Imm         r49, 0x297F120B64AEE026                         ; r49 = "0x297F120B64AEE026"
 00000030    4A 32 03 00 00 00 00 00  06    LoadStaticU64Imm         r50, 0x5D3F19ABB2853A53                         ; r50 = "0x5D3F19ABB2853A53"
@@ -14,16 +14,26 @@
 00000068    15 00 04 00 00 00 00 00  0D    LookupPointer            r0, 0xCF56CE6213BB9C96
 00000070    4A 31 07 00 00 00 00 00  0E    LoadStaticU64Imm         r49, 0xF41F3CA3F2CE93BC                         ; r49 = "0xF41F3CA3F2CE93BC"
 00000078    1C 00 00 03 00 00 00 00  0F    CallFf                   r0, r0, 3                                       ; far call, 3 args
-00000080    15 00 04 00 00 00 00 00  10    LookupPointer            r0, 0xCF56CE6213BB9C96
-00000088    4A 31 08 00 00 00 00 00  11    LoadStaticU64Imm         r49, 0xD61E4E4F13F92098                         ; r49 = "0xD61E4E4F13F92098"
-00000090    1C 00 00 03 00 00 00 00  12    CallFf                   r0, r0, 3                                       ; far call, 3 args
-00000098    00 00 00 00 00 00 00 00  13    Return                   r0
-000000A0    1D E8 89 06 AD 35 1E 38     381E35AD0689E81D       0x381E35AD0689E81D
-000000A8    F2 59 4C 5F 0D EB 77 42     4277EB0D5F4C59F2       send-event
-000000B0    26 E0 AE 64 0B 12 7F 29     297F120B64AEE026       0x297F120B64AEE026
-000000B8    53 3A 85 B2 AB 19 3F 5D     5D3F19ABB2853A53       0x5D3F19ABB2853A53
-000000C0    96 9C BB 13 62 CE 56 CF     CF56CE6213BB9C96       0xCF56CE6213BB9C96
-000000C8    00 A9 06 C3 02 5B BB 43     43BB5B02C306A900       0x43BB5B02C306A900
-000000D0    B7 92 07 D4 18 E5 19 2D     2D19E518D40792B7       self
-000000D8    BC 93 CE F2 A3 3C 1F F4     F41F3CA3F2CE93BC       0xF41F3CA3F2CE93BC
-000000E0    98 20 F9 13 4F 4E 1E D6     D61E4E4F13F92098       0xD61E4E4F13F92098
+00000080    15 00 08 00 00 00 00 00  10    LookupPointer            r0, get-int32
+00000088    4A 31 09 00 00 00 00 00  11    LoadStaticU64Imm         r49, 0xB4543A91E0345E6A                         ; r49 = "0xB4543A91E0345E6A"
+00000090    4A 32 06 00 00 00 00 00  12    LoadStaticU64Imm         r50, 0x2D19E518D40792B7                         ; r50 = "self"
+00000098    1C 00 00 02 00 00 00 00  13    CallFf                   r0, r0, 2                                       ; far call, 2 args
+000000A0    0C 01 00 00 00 00 00 00  14    LoadU16Imm               r1, 0                                           ; r1 = 0
+000000A8    21 00 00 02 00 00 00 00  15    ILessThanEqual           r0, r0, r2                                      ; r0 = r0 <= r2
+000000B0    2F 1C 00 00 00 00 00 00  16    BranchIfNot              000000E0, r0                                    ; if (!r0) goto 000000E0
+000000B8    15 00 04 00 00 00 00 00  17    LookupPointer            r0, 0xCF56CE6213BB9C96
+000000C0    4A 31 05 00 00 00 00 00  18    LoadStaticU64Imm         r49, 0x43BB5B02C306A900                         ; r49 = "0x43BB5B02C306A900"
+000000C8    0C 32 01 00 00 00 00 00  19    LoadU16Imm               r50, 1                                          ; r50 = 1
+000000D0    4A 33 06 00 00 00 00 00  1A    LoadStaticU64Imm         r51, 0x2D19E518D40792B7                         ; r51 = "self"
+000000D8    1C 00 00 03 00 00 00 00  1B    CallFf                   r0, r0, 3                                       ; far call, 3 args
+000000E0    00 00 00 00 00 00 00 00  1C    Return                   r0
+000000E8    1D E8 89 06 AD 35 1E 38     381E35AD0689E81D       0x381E35AD0689E81D
+000000F0    F2 59 4C 5F 0D EB 77 42     4277EB0D5F4C59F2       send-event
+000000F8    26 E0 AE 64 0B 12 7F 29     297F120B64AEE026       0x297F120B64AEE026
+00000100    53 3A 85 B2 AB 19 3F 5D     5D3F19ABB2853A53       0x5D3F19ABB2853A53
+00000108    96 9C BB 13 62 CE 56 CF     CF56CE6213BB9C96       0xCF56CE6213BB9C96
+00000110    00 A9 06 C3 02 5B BB 43     43BB5B02C306A900       0x43BB5B02C306A900
+00000118    B7 92 07 D4 18 E5 19 2D     2D19E518D40792B7       self
+00000120    BC 93 CE F2 A3 3C 1F F4     F41F3CA3F2CE93BC       0xF41F3CA3F2CE93BC
+00000128    22 31 22 DA 48 7F 54 88     88547F48DA223122       get-int32
+00000130    6A 5E 34 E0 91 3A 54 B4     B4543A91E0345E6A       0xB4543A91E0345E6A

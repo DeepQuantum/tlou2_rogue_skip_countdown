@@ -2,20 +2,33 @@ LookupPointer            r0, 0x381E35AD0689E81D
 LoadU16Imm               r49, 111
 CallFf                   r0, r0, 1
 BranchIfNot              LABEL_RETURN, r0
+SET_COUNTDOWN_2_SECONDS:
 LookupPointer            r0, send-event
 LoadStaticU64Imm         r49, 0x297F120B64AEE026
 LoadStaticU64Imm         r50, 0x5D3F19ABB2853A53
 CallFf                   r0, r0, 2
+SET_SETUP_TIMER_0:
 LookupPointer            r0, 0xCF56CE6213BB9C96
 LoadStaticU64Imm         r49, 0x43BB5B02C306A900
-LoadU16Imm               r50, 1
+LoadU16Imm               r50, 2
 LoadStaticU64Imm         r51, self
 CallFf                   r0, r0, 3
+SET_RECOVERY_TIMER_0:
 LookupPointer            r0, 0xCF56CE6213BB9C96
 LoadStaticU64Imm         r49, 0xF41F3CA3F2CE93BC
 CallFf                   r0, r0, 3
+SET_FINAL_TIMER_0:
+LookupPointer            r0, get-int32
+LoadStaticU64Imm         r49, 0xB4543A91E0345E6A
+LoadStaticU64Imm         r50, self
+CallFf                   r0, r0, 2
+LoadU16Imm               r1, 0
+ILessThanEqual           r0, r0, r2
+BranchIfNot              LABEL_RETURN, r0
 LookupPointer            r0, 0xCF56CE6213BB9C96
-LoadStaticU64Imm         r49, 0xD61E4E4F13F92098
+LoadStaticU64Imm         r49, 0x43BB5B02C306A900
+LoadU16Imm               r50, 2
+LoadStaticU64Imm         r51, self
 CallFf                   r0, r0, 3
 LABEL_RETURN:
 Return                   r0
