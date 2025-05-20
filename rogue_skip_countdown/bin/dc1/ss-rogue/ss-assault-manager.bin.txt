@@ -158,22 +158,22 @@
   :initial-state '#0000000000000000  //value @ 000006D0
   :options (new ss-options :wait-for-levels (make-symbol-array 'player ))
   :declarations (declaration-list 
-    (var int32 '#65B7E19A71455142 = 60) //value @ 000023A8
+    (var int32 '#65B7E19A71455142 = 20) //value @ 000023A8
     (var int32 '#43BB5B02C306A900 = 0) //value @ 000023B8
     (var boolean 'assault-wave-active? = ??? (nullptr))
-    (var int32 '#8D61DC341D23F87E = 60) //value @ 000023C8
+    (var int32 '#8D61DC341D23F87E = 20) //value @ 000023C8
     (var int32 '#F41F3CA3F2CE93BC = 0) //value @ 000023D8
     (var int32 '#B4543A91E0345E6A = 0) //value @ 000023E8
     (var int32 '#72E01BEEBCB61949 = 0) //value @ 000023F8
     (var symbol '#E84331F1B3443ED6 = ??? (nullptr))
-    (var int32 '#3DEE4C07855707E3 = 60) //value @ 00002408
+    (var int32 '#3DEE4C07855707E3 = 20) //value @ 00002408
     (var boolean '#21CBB622752B12CD = ??? (nullptr))
     (var boolean '#A384EA845888C3EF = ??? (nullptr))
-    (var int32 '#D61E4E4F13F92098 = 60) //value @ 00002418
+    (var int32 '#D61E4E4F13F92098 = 20) //value @ 00002418
     (var boolean '#6EDB04596940DB04 = ??? (nullptr))
     (var boolean '#F94808CAB0ADFB85 = ??? (nullptr))
     (var timer '#3F2DAB8D17ED29AC = ??? (nullptr))
-    (var float '#5B2519BCAE97CE87 = 0.000000) //value @ 00002428
+    (var float '#5B2519BCAE97CE87 = 8.000000) //value @ 00002428
     (var symbol '#F58E5C89DCE15BD9 = null) //value @ 00002438
     (var timer '#663A27CA51B2DA68 = ??? (nullptr))
     (var boolean '#5716579CFC6999BD = ??? (nullptr))
@@ -564,7 +564,7 @@
             loc_0 - CODE: 0x00007BE0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x381E35AD0689E81D(#381E35AD0689E81D)
             loc_1 - CODE: 0x00007BE8 0C 31 6F 00 DC::kLoadU16Immediate: R49, 111 | (0 << 0x8)
             loc_2 - CODE: 0x00007BF0 1C 00 00 01 DC::kCallFf: ( #381E35AD0689E81D '#000000000000006F )
-            loc_3 - CODE: 0x00007BF8 2F 10 00 00 DC::kBranchIfNot: B loc_16
+            loc_3 - CODE: 0x00007BF8 2F 13 00 00 DC::kBranchIfNot: B loc_19
             loc_4 - CODE: 0x00007C00 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0x4277EB0D5F4C59F2(send-event)
             loc_5 - CODE: 0x00007C08 4A 31 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 297F120B64AEE026(#297F120B64AEE026)
             loc_6 - CODE: 0x00007C10 4A 32 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R50, 5D3F19ABB2853A53(#5D3F19ABB2853A53)
@@ -577,7 +577,10 @@
             loc_13 - CODE: 0x00007C48 15 00 04 00 DC::kLookupInteger/kLookupFloat: R0 R4 -> hashid: 0xCF56CE6213BB9C96(set-int32)
             loc_14 - CODE: 0x00007C50 4A 31 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, F41F3CA3F2CE93BC(#F41F3CA3F2CE93BC)
             loc_15 - CODE: 0x00007C58 1C 00 00 03 DC::kCallFf: ( set-int32 '#F41F3CA3F2CE93BC '#0000000000000001 'self )
-            loc_16 - CODE: 0x00007C60 00 00 00 00 DC::kScriptCodeReturn: 0xCF56CE6213BB9C96
+            loc_16 - CODE: 0x00007C60 15 00 04 00 DC::kLookupInteger/kLookupFloat: R0 R4 -> hashid: 0xCF56CE6213BB9C96(set-int32)
+            loc_17 - CODE: 0x00007C68 4A 31 08 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, D61E4E4F13F92098(#D61E4E4F13F92098)
+            loc_18 - CODE: 0x00007C70 1C 00 00 03 DC::kCallFf: ( set-int32 '#D61E4E4F13F92098 '#0000000000000001 'self )
+            loc_19 - CODE: 0x00007C78 00 00 00 00 DC::kScriptCodeReturn: 0xCF56CE6213BB9C96
         )
         (
             loc_0 - CODE: 0x0000B500 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xF3AEE145E25495CE(get-pc-hud-toggle)
@@ -1684,7 +1687,7 @@
             loc_10 - CODE: 0x00009D78 2F 15 00 00 DC::kBranchIfNot: B loc_11
             loc_11 - CODE: 0x00009D80 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE64D0EF45AB45695(display)
             loc_12 - CODE: 0x00009D88 15 01 04 00 DC::kLookupInteger/kLookupFloat: R1 R4 -> hashid: 0x5445173390656D6D(#5445173390656D6D)
-            loc_13 - CODE: 0x00009D90 41 02 05 00 DC::kLoadStaticPointerImm: R2, 000001F74314E705 // offset B5C5
+            loc_13 - CODE: 0x00009D90 41 02 05 00 DC::kLoadStaticPointerImm: R2, 0000021DFF5BF595 // offset B5C5
             loc_14 - CODE: 0x00009D98 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
             loc_15 - CODE: 0x00009DA0 1C 01 01 01 DC::kCallFf: ( #5445173390656D6D '#000000000000B5C5 )
             loc_16 - CODE: 0x00009DA8 0C 02 13 00 DC::kLoadU16Immediate: R2, 19 | (0 << 0x8)
@@ -1769,7 +1772,7 @@
             loc_3 - CODE: 0x00008CC8 2F 0E 00 00 DC::kBranchIfNot: B loc_4
             loc_4 - CODE: 0x00008CD0 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xE64D0EF45AB45695(display)
             loc_5 - CODE: 0x00008CD8 15 01 02 00 DC::kLookupInteger/kLookupFloat: R1 R2 -> hashid: 0x5445173390656D6D(#5445173390656D6D)
-            loc_6 - CODE: 0x00008CE0 41 02 03 00 DC::kLoadStaticPointerImm: R2, 000001F74314E6EE // offset B5AE
+            loc_6 - CODE: 0x00008CE0 41 02 03 00 DC::kLoadStaticPointerImm: R2, 0000021DFF5BF57E // offset B5AE
             loc_7 - CODE: 0x00008CE8 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
             loc_8 - CODE: 0x00008CF0 1C 01 01 01 DC::kCallFf: ( #5445173390656D6D '#000000000000B5AE )
             loc_9 - CODE: 0x00008CF8 0C 02 13 00 DC::kLoadU16Immediate: R2, 19 | (0 << 0x8)
@@ -1851,7 +1854,7 @@
             loc_67 - CODE: 0x0000A7F8 2F 53 03 00 DC::kBranchIfNot: B loc_68
             loc_68 - CODE: 0x0000A800 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0xE64D0EF45AB45695(display)
             loc_69 - CODE: 0x0000A808 15 04 07 00 DC::kLookupInteger/kLookupFloat: R4 R7 -> hashid: 0x5445173390656D6D(#5445173390656D6D)
-            loc_70 - CODE: 0x0000A810 41 05 08 00 DC::kLoadStaticPointerImm: R5, 000001F74314E6B0 // offset B570
+            loc_70 - CODE: 0x0000A810 41 05 08 00 DC::kLoadStaticPointerImm: R5, 0000021DFF5BF540 // offset B570
             loc_71 - CODE: 0x0000A818 15 06 09 00 DC::kLookupInteger/kLookupFloat: R6 R9 -> hashid: 0xD20BB7B482F9324E(string-debug)
             loc_72 - CODE: 0x0000A820 43 07 02 00 DC::kMoveInteger/kMovePointer/kMove: R7, R2
             loc_73 - CODE: 0x0000A828 43 31 07 00 DC::kMoveInteger/kMovePointer/kMove: R49, R7
@@ -2425,7 +2428,7 @@
             loc_60 - CODE: 0x000069D8 2F 51 01 00 DC::kBranchIfNot: B loc_61
             loc_61 - CODE: 0x000069E0 15 01 0E 00 DC::kLookupInteger/kLookupFloat: R1 R14 -> hashid: 0xE64D0EF45AB45695(display)
             loc_62 - CODE: 0x000069E8 15 02 0F 00 DC::kLookupInteger/kLookupFloat: R2 R15 -> hashid: 0x5445173390656D6D(#5445173390656D6D)
-            loc_63 - CODE: 0x000069F0 41 03 10 00 DC::kLoadStaticPointerImm: R3, 000001F74314E6CD // offset B58D
+            loc_63 - CODE: 0x000069F0 41 03 10 00 DC::kLoadStaticPointerImm: R3, 0000021DFF5BF55D // offset B58D
             loc_64 - CODE: 0x000069F8 15 04 00 00 DC::kLookupInteger/kLookupFloat: R4 R0 -> hashid: 0x37B1139C687F2546(darray-count)
             loc_65 - CODE: 0x00006A00 15 05 01 00 DC::kLookupInteger/kLookupFloat: R5 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
             loc_66 - CODE: 0x00006A08 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, E84331F1B3443ED6(#E84331F1B3443ED6)
@@ -2518,7 +2521,7 @@
             loc_153 - CODE: 0x00006CC0 2F A9 04 00 DC::kBranchIfNot: B loc_154
             loc_154 - CODE: 0x00006CC8 15 04 0E 00 DC::kLookupInteger/kLookupFloat: R4 R14 -> hashid: 0xE64D0EF45AB45695(display)
             loc_155 - CODE: 0x00006CD0 15 05 0F 00 DC::kLookupInteger/kLookupFloat: R5 R15 -> hashid: 0x5445173390656D6D(#5445173390656D6D)
-            loc_156 - CODE: 0x00006CD8 41 06 13 00 DC::kLoadStaticPointerImm: R6, 000001F74314E6BA // offset B57A
+            loc_156 - CODE: 0x00006CD8 41 06 13 00 DC::kLoadStaticPointerImm: R6, 0000021DFF5BF54A // offset B57A
             loc_157 - CODE: 0x00006CE0 15 07 14 00 DC::kLookupInteger/kLookupFloat: R7 R20 -> hashid: 0xD20BB7B482F9324E(string-debug)
             loc_158 - CODE: 0x00006CE8 43 08 03 00 DC::kMoveInteger/kMovePointer/kMove: R8, R3
             loc_159 - CODE: 0x00006CF0 43 31 08 00 DC::kMoveInteger/kMovePointer/kMove: R49, R8

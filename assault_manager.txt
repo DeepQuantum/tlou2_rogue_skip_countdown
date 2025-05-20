@@ -14,5 +14,8 @@ CallFf                   r0, r0, 3
 LookupPointer            r0, 0xCF56CE6213BB9C96
 LoadStaticU64Imm         r49, 0xF41F3CA3F2CE93BC
 CallFf                   r0, r0, 3
+LookupPointer            r0, 0xCF56CE6213BB9C96
+LoadStaticU64Imm         r49, 0xD61E4E4F13F92098
+CallFf                   r0, r0, 3
 LABEL_RETURN:
 Return                   r0
