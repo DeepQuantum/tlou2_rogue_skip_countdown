@@ -83,3 +83,11 @@ loc_14 - CODE: 0x000096B8 00 00 00 00 DC::kScriptCodeReturn: 0x4277EB0D5F4C59F2
 
             BRANCHES:
             9970 -> 41?
+
+AEA0: address of lambda i want to point to
+
+A458: location of old pointer to lambda struct of function to be overwritten
+
+B916868357E74636: start timer
+
+173F533266965DC7: number of enemies

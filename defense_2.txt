@@ -1,0 +1,18 @@
+LookupPointer r0, set-int32
+LoadStaticU64Imm r49, 0xB916868357E74636
+LoadU16Imm r50, 2
+LoadStaticU64Imm r51, self
+CallFf r0, r0, 3
+LookupPointer r0, get-int32
+LoadStaticU64Imm r49, 0xA9839F519D50031B
+LoadStaticU64Imm r50, self
+CallFf r0, r0, 2
+LoadU16Imm r1, 20
+ILessThan r0, r0, r1
+BranchIfNot RETURN_LABEL, r0
+LookupPointer            r0, set-int32
+LoadStaticU64Imm         r49, 0xA9839F519D50031B
+LoadU16Imm               r50, 2
+CallFf                   r0, r0, 3
+RETURN_LABEL:
+Return                   r0
