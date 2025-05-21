@@ -8,13 +8,13 @@ LoadStaticU64Imm         r49, 0x297F120B64AEE026
 LoadStaticU64Imm         r50, 0x5D3F19ABB2853A53
 CallFf                   r0, r0, 2
 SET_SETUP_TIMER_0:
-LookupPointer            r0, 0xCF56CE6213BB9C96
+LookupPointer            r0, set-int32
 LoadStaticU64Imm         r49, 0x43BB5B02C306A900
 LoadU16Imm               r50, 2
 LoadStaticU64Imm         r51, self
 CallFf                   r0, r0, 3
 SET_RECOVERY_TIMER_0:
-LookupPointer            r0, 0xCF56CE6213BB9C96
+LookupPointer            r0, set-int32
 LoadStaticU64Imm         r49, 0xF41F3CA3F2CE93BC
 CallFf                   r0, r0, 3
 SET_FINAL_TIMER_0:
@@ -25,7 +25,7 @@ CallFf                   r0, r0, 2
 LoadU16Imm               r1, 0
 ILessThanEqual           r0, r0, r2
 BranchIfNot              LABEL_RETURN, r0
-LookupPointer            r0, 0xCF56CE6213BB9C96
+LookupPointer            r0, set-int32
 LoadStaticU64Imm         r49, 0x43BB5B02C306A900
 LoadU16Imm               r50, 2
 LoadStaticU64Imm         r51, self

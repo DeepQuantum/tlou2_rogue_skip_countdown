@@ -4,10 +4,9 @@ LoadStaticU64Imm  r50, self
 Call r0, r0, 2
 LoadU16Imm r1, 2
 CastFloat r1, r1
-FGreaterThan r0, r1, r1
+FGreaterThan r0, r0, r1
 BranchIfNot RETURN_LABEL, r0
 LookupPointer r0, start-timer
-LoadStaticU64Imm r49, countdown-timer
 Move r50, r1
 LoadStaticU64Imm r51, self
 LoadU16Imm r52, 1
