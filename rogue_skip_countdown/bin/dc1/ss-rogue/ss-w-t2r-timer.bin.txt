@@ -1,0 +1,1929 @@
+-------------[ t2r script disassembler by icemesh ]--------------
+(defun '#6F4191302AE882D4
+        (
+            loc_0 - CODE: 0x000000C8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x000000D0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 1E22AD2DE97D10E1(#1E22AD2DE97D10E1)
+            loc_2 - CODE: 0x000000D8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000000E0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000000E8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000000F0 1C 00 00 02 DC::kCallFf: ( get-boolean '#1E22AD2DE97D10E1 'self )
+            loc_6 - CODE: 0x000000F8 2F 0E 00 00 DC::kBranchIfNot: B loc_14
+            loc_7 - CODE: 0x00000100 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE7382279905640E1(play-sound)
+            loc_8 - CODE: 0x00000108 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A1D1A11C3D1D2C14(#A1D1A11C3D1D2C14)
+            loc_9 - CODE: 0x00000110 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00000118 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x00000120 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x00000128 1C 00 00 02 DC::kCallFf: ( play-sound '#A1D1A11C3D1D2C14 '#0000000000000000 )
+            loc_13 - CODE: 0x00000130 2D 14 00 00 DC::kBranch: B loc_20
+            loc_14 - CODE: 0x00000138 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE7382279905640E1(play-sound)
+            loc_15 - CODE: 0x00000140 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 352DB84AFB541A92(#352DB84AFB541A92)
+            loc_16 - CODE: 0x00000148 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_17 - CODE: 0x00000150 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_18 - CODE: 0x00000158 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_19 - CODE: 0x00000160 1C 00 00 02 DC::kCallFf: ( play-sound '#352DB84AFB541A92 '#0000000000000000 )
+            loc_20 - CODE: 0x00000168 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_21 - CODE: 0x00000170 4A 01 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8EB670EB4FE67169(#8EB670EB4FE67169)
+            loc_22 - CODE: 0x00000178 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_23 - CODE: 0x00000180 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_24 - CODE: 0x00000188 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_25 - CODE: 0x00000190 1C 00 00 02 DC::kCallFf: ( get-boolean '#8EB670EB4FE67169 'self )
+            loc_26 - CODE: 0x00000198 2F 22 00 00 DC::kBranchIfNot: B loc_34
+            loc_27 - CODE: 0x000001A0 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE7382279905640E1(play-sound)
+            loc_28 - CODE: 0x000001A8 4A 01 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 6672FA33621A8272(#6672FA33621A8272)
+            loc_29 - CODE: 0x000001B0 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_30 - CODE: 0x000001B8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_31 - CODE: 0x000001C0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_32 - CODE: 0x000001C8 1C 00 00 02 DC::kCallFf: ( play-sound '#6672FA33621A8272 '#0000000000000000 )
+            loc_33 - CODE: 0x000001D0 2D 23 00 00 DC::kBranch: B loc_35
+            loc_34 - CODE: 0x000001D8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_35 - CODE: 0x000001E0 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+)
+
+(defun '#8C7D49D0F2AF28FC
+        (
+            loc_0 - CODE: 0x00000280 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x00000288 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 1E22AD2DE97D10E1(#1E22AD2DE97D10E1)
+            loc_2 - CODE: 0x00000290 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00000298 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000002A0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000002A8 1C 00 00 02 DC::kCallFf: ( get-boolean '#1E22AD2DE97D10E1 'self )
+            loc_6 - CODE: 0x000002B0 2F 0E 00 00 DC::kBranchIfNot: B loc_14
+            loc_7 - CODE: 0x000002B8 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE7382279905640E1(play-sound)
+            loc_8 - CODE: 0x000002C0 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A1D1A11C3D1D2C14(#A1D1A11C3D1D2C14)
+            loc_9 - CODE: 0x000002C8 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x000002D0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x000002D8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x000002E0 1C 00 00 02 DC::kCallFf: ( play-sound '#A1D1A11C3D1D2C14 '#0000000000000000 )
+            loc_13 - CODE: 0x000002E8 2D 14 00 00 DC::kBranch: B loc_20
+            loc_14 - CODE: 0x000002F0 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xE7382279905640E1(play-sound)
+            loc_15 - CODE: 0x000002F8 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, C47E38E854CC47E8(#C47E38E854CC47E8)
+            loc_16 - CODE: 0x00000300 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_17 - CODE: 0x00000308 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_18 - CODE: 0x00000310 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_19 - CODE: 0x00000318 1C 00 00 02 DC::kCallFf: ( play-sound '#C47E38E854CC47E8 '#0000000000000000 )
+            loc_20 - CODE: 0x00000320 00 00 00 00 DC::kScriptCodeReturn: 0xE7382279905640E1
+        )
+)
+
+(define-state-script ss-w-t2r-timer
+  :location "t2r/src/game/scriptx/ss-rogue/ss-w-t2r-timer.dcx":46)
+  :initial-state 'default  //value @ 00000370
+  :declarations (declaration-list 
+    (var symbol '#0BA419E287D26838 = ??? (nullptr))
+    (var symbol '#5899C58491C7718D = ??? (nullptr))
+    (var timer 'countdown-timer = ??? (nullptr))
+    (var timer 'pause-timer = ??? (nullptr))
+    (var timer '#254979EBFEBAB098 = ??? (nullptr))
+    (var float '#8F1A8C00AF9FAC4F = 2.000000) //value @ 000011A0
+    (var boolean '#8A3B9F725B6C30CF = ??? (nullptr))
+    (var boolean '#87D7EC1A04628DD9 = ??? (nullptr))
+    (var boolean '#2AD440C91E193029 = ??? (nullptr))
+    (var boolean '#9BF9DCD2ED9290B6 = ??? (nullptr))
+    (var boolean '#D66BF521730AA5A3 = ??? (nullptr))
+    (var boolean '#A937716D0A0C3920 = ??? (nullptr))
+    (var boolean '#DBCE1B0C661DE2CD = ??? (nullptr))
+    (var boolean '#6661D716D631C5BA = ??? (nullptr))
+    (var boolean '#E1772EEC8C88B807 = ??? (nullptr))
+    (var boolean '#AFBEF0F367C24B74 = ??? (nullptr))
+    (var boolean '#115E43488ECF5F51 = ??? (nullptr))
+    (var boolean '#14E0C7ACE1E6093E = ??? (nullptr))
+    (var boolean '#1E22AD2DE97D10E1 = ??? (nullptr))
+    (var boolean '#8EB670EB4FE67169 = ??? (nullptr))
+    (var boolean '#764846B609F687EE = ??? (nullptr))
+  )
+
+  (state ("player-dead")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005700 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xF002EBFEA189AA86(gui2-set-widget-state-immediate)
+            loc_1 - CODE: 0x00005708 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005710 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, EBADA5168620C5FE(default)
+            loc_3 - CODE: 0x00005718 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x00005720 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x00005728 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00005730 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_7 - CODE: 0x00005738 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_8 - CODE: 0x00005740 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_9 - CODE: 0x00005748 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_10 - CODE: 0x00005750 43 35 05 00 DC::kMoveInteger/kMovePointer/kMove: R53, R5
+            loc_11 - CODE: 0x00005758 1C 00 00 05 DC::kCallFf: ( gui2-set-widget-state-immediate 'self 'default '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_12 - CODE: 0x00005760 00 00 00 00 DC::kScriptCodeReturn: 0xF002EBFEA189AA86
+        )
+        (
+            loc_0 - CODE: 0x00003228 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003230 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_2 - CODE: 0x00003238 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00003240 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003248 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003250 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003258 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003260 1C 00 00 03 DC::kCallFf: ( set-boolean '#764846B609F687EE '#0000000000000001 'self )
+            loc_8 - CODE: 0x00003268 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00005EF0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00005EF8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005F00 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00005F08 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005F10 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005F18 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'self '#0000000000000000 )
+            loc_6 - CODE: 0x00005F20 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+  )
+  (state ("default")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005510 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3D1686E42EE91A7E(gui2-set-widget-state)
+            loc_1 - CODE: 0x00005518 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005520 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, EBADA5168620C5FE(default)
+            loc_3 - CODE: 0x00005528 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x00005530 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x00005538 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00005540 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_7 - CODE: 0x00005548 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_8 - CODE: 0x00005550 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_9 - CODE: 0x00005558 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_10 - CODE: 0x00005560 43 35 05 00 DC::kMoveInteger/kMovePointer/kMove: R53, R5
+            loc_11 - CODE: 0x00005568 1C 00 00 05 DC::kCallFf: ( gui2-set-widget-state 'self 'default '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_12 - CODE: 0x00005570 00 00 00 00 DC::kScriptCodeReturn: 0x3D1686E42EE91A7E
+        )
+      )
+    )
+  )
+  (state ("--all--")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00006120 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x8A56327CFCBDB43A(set-symbol)
+            loc_1 - CODE: 0x00006128 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 0BA419E287D26838(#0BA419E287D26838)
+            loc_2 - CODE: 0x00006130 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_3 - CODE: 0x00006138 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00006140 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C69F72 // offset 6842
+            loc_5 - CODE: 0x00006148 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00006150 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00006158 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00006160 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00006168 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00006170 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00006178 0C 0B 00 00 DC::kLoadU16Immediate: R11, 0 | (0 << 0x8)
+            loc_12 - CODE: 0x00006180 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_13 - CODE: 0x00006188 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_14 - CODE: 0x00006190 43 33 05 00 DC::kMoveInteger/kMovePointer/kMove: R51, R5
+            loc_15 - CODE: 0x00006198 43 34 06 00 DC::kMoveInteger/kMovePointer/kMove: R52, R6
+            loc_16 - CODE: 0x000061A0 43 35 07 00 DC::kMoveInteger/kMovePointer/kMove: R53, R7
+            loc_17 - CODE: 0x000061A8 43 36 08 00 DC::kMoveInteger/kMovePointer/kMove: R54, R8
+            loc_18 - CODE: 0x000061B0 43 37 09 00 DC::kMoveInteger/kMovePointer/kMove: R55, R9
+            loc_19 - CODE: 0x000061B8 43 38 0A 00 DC::kMoveInteger/kMovePointer/kMove: R56, R10
+            loc_20 - CODE: 0x000061C0 43 39 0B 00 DC::kMoveInteger/kMovePointer/kMove: R57, R11
+            loc_21 - CODE: 0x000061C8 1C 02 02 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_22 - CODE: 0x000061D0 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_23 - CODE: 0x000061D8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_24 - CODE: 0x000061E0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_25 - CODE: 0x000061E8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_26 - CODE: 0x000061F0 1C 00 00 03 DC::kCallFf: ( set-symbol '#0BA419E287D26838 'gui2-build-widget-path 'self )
+            loc_27 - CODE: 0x000061F8 00 00 00 00 DC::kScriptCodeReturn: 0x8A56327CFCBDB43A
+        )
+        (
+            loc_0 - CODE: 0x000034A8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x8A56327CFCBDB43A(set-symbol)
+            loc_1 - CODE: 0x000034B0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 5899C58491C7718D(#5899C58491C7718D)
+            loc_2 - CODE: 0x000034B8 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_3 - CODE: 0x000034C0 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000034C8 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C69F72 // offset 6842
+            loc_5 - CODE: 0x000034D0 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C6A16A // offset 6A3A
+            loc_6 - CODE: 0x000034D8 41 06 06 00 DC::kLoadStaticPointerImm: R6, 000001D980C6A15B // offset 6A2B
+            loc_7 - CODE: 0x000034E0 41 07 07 00 DC::kLoadStaticPointerImm: R7, 000001D980C69F91 // offset 6861
+            loc_8 - CODE: 0x000034E8 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x000034F0 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x000034F8 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003500 0C 0B 00 00 DC::kLoadU16Immediate: R11, 0 | (0 << 0x8)
+            loc_12 - CODE: 0x00003508 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_13 - CODE: 0x00003510 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_14 - CODE: 0x00003518 43 33 05 00 DC::kMoveInteger/kMovePointer/kMove: R51, R5
+            loc_15 - CODE: 0x00003520 43 34 06 00 DC::kMoveInteger/kMovePointer/kMove: R52, R6
+            loc_16 - CODE: 0x00003528 43 35 07 00 DC::kMoveInteger/kMovePointer/kMove: R53, R7
+            loc_17 - CODE: 0x00003530 43 36 08 00 DC::kMoveInteger/kMovePointer/kMove: R54, R8
+            loc_18 - CODE: 0x00003538 43 37 09 00 DC::kMoveInteger/kMovePointer/kMove: R55, R9
+            loc_19 - CODE: 0x00003540 43 38 0A 00 DC::kMoveInteger/kMovePointer/kMove: R56, R10
+            loc_20 - CODE: 0x00003548 43 39 0B 00 DC::kMoveInteger/kMovePointer/kMove: R57, R11
+            loc_21 - CODE: 0x00003550 1C 02 02 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A3A '#0000000000006A2B '#0000000000006861 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_22 - CODE: 0x00003558 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_23 - CODE: 0x00003560 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_24 - CODE: 0x00003568 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_25 - CODE: 0x00003570 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_26 - CODE: 0x00003578 1C 00 00 03 DC::kCallFf: ( set-symbol '#5899C58491C7718D 'gui2-build-widget-path 'self )
+            loc_27 - CODE: 0x00003580 00 00 00 00 DC::kScriptCodeReturn: 0x8A56327CFCBDB43A
+        )
+        (
+            loc_0 - CODE: 0x00005800 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xA7CB5720D5009D31(gui2-assign-to-category)
+            loc_1 - CODE: 0x00005808 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005810 44 02 02 00 DC::kLoadStaticU32Imm: R2, 00200000
+            loc_3 - CODE: 0x00005818 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005820 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005828 1C 00 00 02 DC::kCallFf: ( gui2-assign-to-category 'self '#0000000000200000 )
+            loc_6 - CODE: 0x00005830 00 00 00 00 DC::kScriptCodeReturn: 0xA7CB5720D5009D31
+        )
+        (
+            loc_0 - CODE: 0x00003CD8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00003CE0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00003CE8 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x84E8B47DB0C92683(is-no-return-hud-countdown-enabled?)
+            loc_3 - CODE: 0x00003CF0 1C 02 02 00 DC::kCallFf: ( is-no-return-hud-countdown-enabled? )
+            loc_4 - CODE: 0x00003CF8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003D00 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003D08 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'self 'is-no-return-hud-countdown-enabled? )
+            loc_7 - CODE: 0x00003D10 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+    (on (event 'options-menu-changed)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003CD8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00003CE0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00003CE8 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x84E8B47DB0C92683(is-no-return-hud-countdown-enabled?)
+            loc_3 - CODE: 0x00003CF0 1C 02 02 00 DC::kCallFf: ( is-no-return-hud-countdown-enabled? )
+            loc_4 - CODE: 0x00003CF8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003D00 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003D08 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'self 'is-no-return-hud-countdown-enabled? )
+            loc_7 - CODE: 0x00003D10 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+    (on (event 'workbench-enter-started)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005FF8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3ACC791F76D342BF(gui2-set-widget-pivot)
+            loc_1 - CODE: 0x00006000 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_2 - CODE: 0x00006008 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 0BA419E287D26838(#0BA419E287D26838)
+            loc_3 - CODE: 0x00006010 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00006018 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x00006020 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x00006028 1C 01 01 02 DC::kCallFf: ( get-symbol '#0BA419E287D26838 'self )
+            loc_7 - CODE: 0x00006030 15 02 04 00 DC::kLookupInteger/kLookupFloat: R2 R4 -> hashid: 0x92E7EDE4E153A544(alloc-vector2)
+            loc_8 - CODE: 0x00006038 3F 03 05 00 DC::kLoadStaticI32Imm: R3, FFFFFEA2
+            loc_9 - CODE: 0x00006040 1A 03 03 00 DC::kCastFloat: S3, S3
+            loc_10 - CODE: 0x00006048 40 04 06 00 DC::kLoadStaticFloatImm: S4, 70.000000
+            loc_11 - CODE: 0x00006050 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_12 - CODE: 0x00006058 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_13 - CODE: 0x00006060 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_14 - CODE: 0x00006068 43 33 05 00 DC::kMoveInteger/kMovePointer/kMove: R51, R5
+            loc_15 - CODE: 0x00006070 1C 02 02 03 DC::kCallFf: ( alloc-vector2 '#FFFFFFFFFFFFFFFF '#00000000428C0000 '#0000000000000000 )
+            loc_16 - CODE: 0x00006078 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_17 - CODE: 0x00006080 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_18 - CODE: 0x00006088 1B 00 00 02 DC::kCall: ( gui2-set-widget-pivot 'get-symbol 'alloc-vector2 )
+            loc_19 - CODE: 0x00006090 00 00 00 00 DC::kScriptCodeReturn: 0x3ACC791F76D342BF
+        )
+      )
+    )
+    (on (event 'workbench-exited)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x000035C8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3ACC791F76D342BF(gui2-set-widget-pivot)
+            loc_1 - CODE: 0x000035D0 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_2 - CODE: 0x000035D8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 0BA419E287D26838(#0BA419E287D26838)
+            loc_3 - CODE: 0x000035E0 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000035E8 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x000035F0 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x000035F8 1C 01 01 02 DC::kCallFf: ( get-symbol '#0BA419E287D26838 'self )
+            loc_7 - CODE: 0x00003600 15 02 04 00 DC::kLookupInteger/kLookupFloat: R2 R4 -> hashid: 0x92E7EDE4E153A544(alloc-vector2)
+            loc_8 - CODE: 0x00003608 40 03 05 00 DC::kLoadStaticFloatImm: S3, 0.000000
+            loc_9 - CODE: 0x00003610 40 04 06 00 DC::kLoadStaticFloatImm: S4, 70.000000
+            loc_10 - CODE: 0x00003618 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003620 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_12 - CODE: 0x00003628 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_13 - CODE: 0x00003630 43 33 05 00 DC::kMoveInteger/kMovePointer/kMove: R51, R5
+            loc_14 - CODE: 0x00003638 1C 02 02 03 DC::kCallFf: ( alloc-vector2 '#0000000000000000 '#00000000428C0000 '#0000000000000000 )
+            loc_15 - CODE: 0x00003640 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_16 - CODE: 0x00003648 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_17 - CODE: 0x00003650 1B 00 00 02 DC::kCall: ( gui2-set-widget-pivot 'get-symbol 'alloc-vector2 )
+            loc_18 - CODE: 0x00003658 00 00 00 00 DC::kScriptCodeReturn: 0x3ACC791F76D342BF
+        )
+      )
+    )
+    (on (event 'player-died)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005E28 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x08953907B53F670B(go)
+            loc_1 - CODE: 0x00005E30 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 291A337AE8D1D381(player-dead)
+            loc_2 - CODE: 0x00005E38 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00005E40 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005E48 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005E50 1C 00 00 02 DC::kCallFf: ( go 'player-dead '#0000000000000001 )
+            loc_6 - CODE: 0x00005E58 00 00 00 00 DC::kScriptCodeReturn: 0x08953907B53F670B
+        )
+      )
+    )
+    (on (event '#DD669D5BFFFEAF6C)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005E28 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x08953907B53F670B(go)
+            loc_1 - CODE: 0x00005E30 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 291A337AE8D1D381(player-dead)
+            loc_2 - CODE: 0x00005E38 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00005E40 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005E48 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005E50 1C 00 00 02 DC::kCallFf: ( go 'player-dead '#0000000000000001 )
+            loc_6 - CODE: 0x00005E58 00 00 00 00 DC::kScriptCodeReturn: 0x08953907B53F670B
+        )
+      )
+    )
+    (on (event 'reset)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003EF8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00003F00 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00003F08 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003F10 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00003F18 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x00003F20 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C6A156 // offset 6A26
+            loc_6 - CODE: 0x00003F28 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00003F30 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00003F38 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00003F40 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00003F48 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003F50 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00003F58 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00003F60 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00003F68 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00003F70 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00003F78 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00003F80 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00003F88 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00003F90 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x00003F98 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006A26 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x00003FA0 4A 02 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 5AFA5A59575D93C8(#5AFA5A59575D93C8)
+            loc_22 - CODE: 0x00003FA8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x00003FB0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x00003FB8 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path '#5AFA5A59575D93C8 )
+            loc_25 - CODE: 0x00003FC0 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00004428 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00004430 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00004438 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004440 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00004448 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x00004450 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C69F68 // offset 6838
+            loc_6 - CODE: 0x00004458 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00004460 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00004468 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00004470 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00004478 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00004480 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00004488 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00004490 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00004498 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x000044A0 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x000044A8 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x000044B0 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x000044B8 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x000044C0 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x000044C8 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006838 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000044D0 4A 02 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 5AFA5A59575D93C8(#5AFA5A59575D93C8)
+            loc_22 - CODE: 0x000044D8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x000044E0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x000044E8 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path '#5AFA5A59575D93C8 )
+            loc_25 - CODE: 0x000044F0 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00003000 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00003008 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00003010 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003018 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00003020 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x00003028 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C69F78 // offset 6848
+            loc_6 - CODE: 0x00003030 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00003038 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00003040 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00003048 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00003050 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003058 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00003060 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00003068 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00003070 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00003078 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00003080 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00003088 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00003090 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00003098 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x000030A0 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006848 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000030A8 4A 02 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, EC0425207CDF874B(#EC0425207CDF874B)
+            loc_22 - CODE: 0x000030B0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x000030B8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x000030C0 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path '#EC0425207CDF874B )
+            loc_25 - CODE: 0x000030C8 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00006550 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00006558 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00006560 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00006568 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00006570 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C69F83 // offset 6853
+            loc_5 - CODE: 0x00006578 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00006580 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00006588 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00006590 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00006598 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x000065A0 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x000065A8 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x000065B0 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x000065B8 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x000065C0 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x000065C8 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x000065D0 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x000065D8 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x000065E0 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x000065E8 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x000065F0 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006853 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000065F8 4A 02 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, D39E1E7DBF345463(MENU_BLANK)
+            loc_22 - CODE: 0x00006600 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x00006608 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x00006610 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path 'MENU_BLANK )
+            loc_25 - CODE: 0x00006618 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00004530 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00004538 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00004540 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004548 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00004550 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A16A // offset 6A3A
+            loc_5 - CODE: 0x00004558 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00004560 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00004568 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00004570 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00004578 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00004580 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00004588 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00004590 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00004598 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x000045A0 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x000045A8 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x000045B0 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x000045B8 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x000045C0 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x000045C8 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x000045D0 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A3A '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000045D8 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_22 - CODE: 0x000045E0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x000045E8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x000045F0 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'gui2-build-widget-path '#0000000000000001 )
+            loc_25 - CODE: 0x000045F8 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+        (
+            loc_0 - CODE: 0x00003EA8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x00003EB0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00003EB8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003EC0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00003EC8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00003ED0 1B 00 00 02 DC::kCall: ( stop-timer 'countdown-timer 'self )
+            loc_6 - CODE: 0x00003ED8 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x000060D0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x000060D8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_2 - CODE: 0x000060E0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000060E8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000060F0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000060F8 1B 00 00 02 DC::kCall: ( stop-timer 'pause-timer 'self )
+            loc_6 - CODE: 0x00006100 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x00003A60 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x00003A68 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 254979EBFEBAB098(#254979EBFEBAB098)
+            loc_2 - CODE: 0x00003A70 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003A78 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00003A80 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00003A88 1B 00 00 02 DC::kCall: ( stop-timer '#254979EBFEBAB098 'self )
+            loc_6 - CODE: 0x00003A90 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x00004790 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x2696BC24BE5E2C38(set-float)
+            loc_1 - CODE: 0x00004798 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8F1A8C00AF9FAC4F(#8F1A8C00AF9FAC4F)
+            loc_2 - CODE: 0x000047A0 40 02 02 00 DC::kLoadStaticFloatImm: S2, 2.000000
+            loc_3 - CODE: 0x000047A8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000047B0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x000047B8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x000047C0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x000047C8 1C 00 00 03 DC::kCallFf: ( set-float '#8F1A8C00AF9FAC4F '#0000000040000000 'self )
+            loc_8 - CODE: 0x000047D0 00 00 00 00 DC::kScriptCodeReturn: 0x2696BC24BE5E2C38
+        )
+        (
+            loc_0 - CODE: 0x00003448 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003450 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_2 - CODE: 0x00003458 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003460 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003468 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003470 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003478 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003480 1C 00 00 03 DC::kCallFf: ( set-boolean '#8A3B9F725B6C30CF '#0000000000000000 'self )
+            loc_8 - CODE: 0x00003488 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00005590 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00005598 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_2 - CODE: 0x000055A0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 0BA419E287D26838(#0BA419E287D26838)
+            loc_3 - CODE: 0x000055A8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000055B0 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x000055B8 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x000055C0 1C 01 01 02 DC::kCallFf: ( get-symbol '#0BA419E287D26838 'self )
+            loc_7 - CODE: 0x000055C8 15 02 04 00 DC::kLookupInteger/kLookupFloat: R2 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_8 - CODE: 0x000055D0 4A 03 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_9 - CODE: 0x000055D8 4A 04 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000055E0 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_11 - CODE: 0x000055E8 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_12 - CODE: 0x000055F0 1C 02 02 02 DC::kCallFf: ( get-boolean '#8A3B9F725B6C30CF 'self )
+            loc_13 - CODE: 0x000055F8 30 02 02 00 DC::kNot: R2 R2
+            loc_14 - CODE: 0x00005600 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x00005608 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x00005610 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'get-symbol '#0000000000000000 )
+            loc_17 - CODE: 0x00005618 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+        (
+            loc_0 - CODE: 0x00005400 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x00005408 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_2 - CODE: 0x00005410 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00005418 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005420 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005428 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_6 - CODE: 0x00005430 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00005438 2F 0F 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00005440 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x08953907B53F670B(go)
+            loc_9 - CODE: 0x00005448 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, EBADA5168620C5FE(default)
+            loc_10 - CODE: 0x00005450 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_11 - CODE: 0x00005458 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00005460 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00005468 1C 00 00 02 DC::kCallFf: ( go 'default '#0000000000000001 )
+            loc_14 - CODE: 0x00005470 2D 10 00 00 DC::kBranch: B loc_16
+            loc_15 - CODE: 0x00005478 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_16 - CODE: 0x00005480 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#B4B969AB87491E91)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003810 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00003818 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00003820 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003828 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00003830 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x00003838 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C6A156 // offset 6A26
+            loc_6 - CODE: 0x00003840 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00003848 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00003850 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00003858 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00003860 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003868 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00003870 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00003878 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00003880 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00003888 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00003890 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00003898 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x000038A0 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x000038A8 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x000038B0 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006A26 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000038B8 15 02 06 00 DC::kLookupInteger/kLookupFloat: R2 R6 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_22 - CODE: 0x000038C0 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_23 - CODE: 0x000038C8 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_24 - CODE: 0x000038D0 1C 02 02 01 DC::kCallFf: ( event-arg-symbol '#0000000000000000 )
+            loc_25 - CODE: 0x000038D8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_26 - CODE: 0x000038E0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_27 - CODE: 0x000038E8 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path 'event-arg-symbol )
+            loc_28 - CODE: 0x000038F0 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00003698 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x000036A0 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x000036A8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000036B0 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x000036B8 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x000036C0 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C69F68 // offset 6838
+            loc_6 - CODE: 0x000036C8 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x000036D0 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x000036D8 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x000036E0 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x000036E8 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x000036F0 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x000036F8 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00003700 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00003708 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00003710 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00003718 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00003720 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00003728 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00003730 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x00003738 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006838 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x00003740 15 02 06 00 DC::kLookupInteger/kLookupFloat: R2 R6 -> hashid: 0x8915180DCA0153C8(event-arg-count)
+            loc_22 - CODE: 0x00003748 1C 02 02 00 DC::kCallFf: ( event-arg-count )
+            loc_23 - CODE: 0x00003750 0C 03 01 00 DC::kLoadU16Immediate: R3, 1 | (0 << 0x8)
+            loc_24 - CODE: 0x00003758 1E 02 02 03 DC::kIgt: R2 > R3
+            loc_25 - CODE: 0x00003760 2F 1F 02 00 DC::kBranchIfNot: B loc_26
+            loc_26 - CODE: 0x00003768 15 02 07 00 DC::kLookupInteger/kLookupFloat: R2 R7 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_27 - CODE: 0x00003770 0C 03 01 00 DC::kLoadU16Immediate: R3, 1 | (0 << 0x8)
+            loc_28 - CODE: 0x00003778 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_29 - CODE: 0x00003780 1C 02 02 01 DC::kCallFf: ( event-arg-symbol '#0000000000000001 )
+            loc_30 - CODE: 0x00003788 2D 23 00 00 DC::kBranch: B loc_35
+            loc_31 - CODE: 0x00003790 15 02 07 00 DC::kLookupInteger/kLookupFloat: R2 R7 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_32 - CODE: 0x00003798 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_33 - CODE: 0x000037A0 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_34 - CODE: 0x000037A8 1C 02 02 01 DC::kCallFf: ( event-arg-symbol '#0000000000000000 )
+            loc_35 - CODE: 0x000037B0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_36 - CODE: 0x000037B8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_37 - CODE: 0x000037C0 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path 'event-arg-symbol )
+            loc_38 - CODE: 0x000037C8 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+        (
+            loc_0 - CODE: 0x00005650 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xE04D6B2695705B11(speak-text-to-speech-formatted)
+            loc_1 - CODE: 0x00005658 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0x332313EC0E2CB328(new-boxed-value)
+            loc_2 - CODE: 0x00005660 0C 02 07 00 DC::kLoadU16Immediate: R2, 7 | (0 << 0x8)
+            loc_3 - CODE: 0x00005668 15 03 02 00 DC::kLookupInteger/kLookupFloat: R3 R2 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_4 - CODE: 0x00005670 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x00005678 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_6 - CODE: 0x00005680 1C 03 03 01 DC::kCallFf: ( event-arg-symbol '#0000000000000000 )
+            loc_7 - CODE: 0x00005688 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_8 - CODE: 0x00005690 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_9 - CODE: 0x00005698 1C 01 01 02 DC::kCallFf: ( new-boxed-value '#0000000000000007 'event-arg-symbol )
+            loc_10 - CODE: 0x000056A0 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_11 - CODE: 0x000056A8 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_12 - CODE: 0x000056B0 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_13 - CODE: 0x000056B8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_14 - CODE: 0x000056C0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_15 - CODE: 0x000056C8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_16 - CODE: 0x000056D0 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_17 - CODE: 0x000056D8 1B 00 00 04 DC::kCall: ( speak-text-to-speech-formatted 'new-boxed-value '#0000000000000001 '#0000000000000000 '#0000000000000001 )
+            loc_18 - CODE: 0x000056E0 00 00 00 00 DC::kScriptCodeReturn: 0xE04D6B2695705B11
+        )
+      )
+    )
+    (on (event '#5915125816E2C23E)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005AF8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00005B00 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00005B08 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00005B10 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00005B18 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A177 // offset 6A47
+            loc_5 - CODE: 0x00005B20 41 05 05 00 DC::kLoadStaticPointerImm: R5, 000001D980C69F78 // offset 6848
+            loc_6 - CODE: 0x00005B28 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00005B30 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00005B38 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00005B40 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00005B48 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00005B50 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00005B58 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00005B60 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00005B68 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00005B70 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00005B78 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00005B80 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00005B88 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00005B90 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x00005B98 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A47 '#0000000000006848 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x00005BA0 15 02 06 00 DC::kLookupInteger/kLookupFloat: R2 R6 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_22 - CODE: 0x00005BA8 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_23 - CODE: 0x00005BB0 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_24 - CODE: 0x00005BB8 1C 02 02 01 DC::kCallFf: ( event-arg-symbol '#0000000000000000 )
+            loc_25 - CODE: 0x00005BC0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_26 - CODE: 0x00005BC8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_27 - CODE: 0x00005BD0 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path 'event-arg-symbol )
+            loc_28 - CODE: 0x00005BD8 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+      )
+    )
+    (on (event '#42CEB9038C627242)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003D90 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x149940808E55A28E(gui2-set-widget-text-cipher)
+            loc_1 - CODE: 0x00003D98 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00003DA0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003DA8 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00003DB0 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C69F83 // offset 6853
+            loc_5 - CODE: 0x00003DB8 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00003DC0 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00003DC8 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00003DD0 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00003DD8 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00003DE0 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00003DE8 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00003DF0 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00003DF8 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00003E00 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00003E08 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00003E10 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00003E18 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00003E20 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00003E28 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x00003E30 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006853 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x00003E38 15 02 05 00 DC::kLookupInteger/kLookupFloat: R2 R5 -> hashid: 0x30EB906C658A4DC5(event-arg-symbol)
+            loc_22 - CODE: 0x00003E40 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_23 - CODE: 0x00003E48 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_24 - CODE: 0x00003E50 1C 02 02 01 DC::kCallFf: ( event-arg-symbol '#0000000000000000 )
+            loc_25 - CODE: 0x00003E58 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_26 - CODE: 0x00003E60 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_27 - CODE: 0x00003E68 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-text-cipher 'gui2-build-widget-path 'event-arg-symbol )
+            loc_28 - CODE: 0x00003E70 00 00 00 00 DC::kScriptCodeReturn: 0x149940808E55A28E
+        )
+      )
+    )
+    (on (event '#638E0D2689C4F6C8)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003288 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x2696BC24BE5E2C38(set-float)
+            loc_1 - CODE: 0x00003290 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8F1A8C00AF9FAC4F(#8F1A8C00AF9FAC4F)
+            loc_2 - CODE: 0x00003298 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x9BB21FEAAF90CE69(event-arg-float)
+            loc_3 - CODE: 0x000032A0 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x000032A8 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_5 - CODE: 0x000032B0 1C 02 02 01 DC::kCallFf: ( event-arg-float '#0000000000000000 )
+            loc_6 - CODE: 0x000032B8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_7 - CODE: 0x000032C0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_8 - CODE: 0x000032C8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_9 - CODE: 0x000032D0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_10 - CODE: 0x000032D8 1C 00 00 03 DC::kCallFf: ( set-float '#8F1A8C00AF9FAC4F 'event-arg-float 'self )
+            loc_11 - CODE: 0x000032E0 00 00 00 00 DC::kScriptCodeReturn: 0x2696BC24BE5E2C38
+        )
+      )
+    )
+    (on (event '#C5E38823BC6A7A74)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005F38 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00005F40 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 1E22AD2DE97D10E1(#1E22AD2DE97D10E1)
+            loc_2 - CODE: 0x00005F48 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00005F50 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00005F58 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00005F60 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00005F68 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00005F70 1C 00 00 03 DC::kCallFf: ( set-boolean '#1E22AD2DE97D10E1 '#0000000000000000 'self )
+            loc_8 - CODE: 0x00005F78 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+      )
+    )
+    (on (event 'countdown)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x000060D0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x000060D8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_2 - CODE: 0x000060E0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000060E8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000060F0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000060F8 1B 00 00 02 DC::kCall: ( stop-timer 'pause-timer 'self )
+            loc_6 - CODE: 0x00006100 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x00003A60 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x00003A68 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 254979EBFEBAB098(#254979EBFEBAB098)
+            loc_2 - CODE: 0x00003A70 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003A78 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00003A80 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00003A88 1B 00 00 02 DC::kCall: ( stop-timer '#254979EBFEBAB098 'self )
+            loc_6 - CODE: 0x00003A90 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x00006228 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_1 - CODE: 0x00006230 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00006238 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x9BB21FEAAF90CE69(event-arg-float)
+            loc_3 - CODE: 0x00006240 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x00006248 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_5 - CODE: 0x00006250 1C 02 02 01 DC::kCallFf: ( event-arg-float '#0000000000000000 )
+            loc_6 - CODE: 0x00006258 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_7 - CODE: 0x00006260 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_8 - CODE: 0x00006268 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_9 - CODE: 0x00006270 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_10 - CODE: 0x00006278 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_11 - CODE: 0x00006280 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_12 - CODE: 0x00006288 1B 00 00 04 DC::kCall: ( start-timer 'countdown-timer 'event-arg-float 'self '#0000000000000001 )
+            loc_13 - CODE: 0x00006290 00 00 00 00 DC::kScriptCodeReturn: 0xDE501F9391C784C7
+        )
+        (
+            loc_0 - CODE: 0x000054B0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x000054B8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 87D7EC1A04628DD9(#87D7EC1A04628DD9)
+            loc_2 - CODE: 0x000054C0 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x000054C8 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000054D0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x000054D8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x000054E0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x000054E8 1C 00 00 03 DC::kCallFf: ( set-boolean '#87D7EC1A04628DD9 '#0000000000000001 'self )
+            loc_8 - CODE: 0x000054F0 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000064F0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x000064F8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2AD440C91E193029(#2AD440C91E193029)
+            loc_2 - CODE: 0x00006500 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00006508 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00006510 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00006518 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00006520 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00006528 1C 00 00 03 DC::kCallFf: ( set-boolean '#2AD440C91E193029 '#0000000000000001 'self )
+            loc_8 - CODE: 0x00006530 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000047F8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00004800 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9BF9DCD2ED9290B6(#9BF9DCD2ED9290B6)
+            loc_2 - CODE: 0x00004808 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00004810 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00004818 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00004820 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00004828 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00004830 1C 00 00 03 DC::kCallFf: ( set-boolean '#9BF9DCD2ED9290B6 '#0000000000000001 'self )
+            loc_8 - CODE: 0x00004838 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000033E8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x000033F0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, D66BF521730AA5A3(#D66BF521730AA5A3)
+            loc_2 - CODE: 0x000033F8 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00003400 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003408 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003410 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003418 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003420 1C 00 00 03 DC::kCallFf: ( set-boolean '#D66BF521730AA5A3 '#0000000000000001 'self )
+            loc_8 - CODE: 0x00003428 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000031C8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x000031D0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A937716D0A0C3920(#A937716D0A0C3920)
+            loc_2 - CODE: 0x000031D8 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x000031E0 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000031E8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x000031F0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x000031F8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003200 1C 00 00 03 DC::kCallFf: ( set-boolean '#A937716D0A0C3920 '#0000000000000001 'self )
+            loc_8 - CODE: 0x00003208 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000059E8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x000059F0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8EB670EB4FE67169(#8EB670EB4FE67169)
+            loc_2 - CODE: 0x000059F8 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00005A00 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00005A08 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00005A10 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00005A18 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00005A20 1C 00 00 03 DC::kCallFf: ( set-boolean '#8EB670EB4FE67169 '#0000000000000000 'self )
+            loc_8 - CODE: 0x00005A28 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00003D30 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003D38 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, DBCE1B0C661DE2CD(#DBCE1B0C661DE2CD)
+            loc_2 - CODE: 0x00003D40 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003D48 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003D50 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003D58 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003D60 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003D68 1C 00 00 03 DC::kCallFf: ( set-boolean '#DBCE1B0C661DE2CD '#0000000000000000 'self )
+            loc_8 - CODE: 0x00003D70 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00004730 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00004738 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 6661D716D631C5BA(#6661D716D631C5BA)
+            loc_2 - CODE: 0x00004740 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00004748 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00004750 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00004758 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00004760 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00004768 1C 00 00 03 DC::kCallFf: ( set-boolean '#6661D716D631C5BA '#0000000000000000 'self )
+            loc_8 - CODE: 0x00004770 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00003A00 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003A08 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, E1772EEC8C88B807(#E1772EEC8C88B807)
+            loc_2 - CODE: 0x00003A10 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003A18 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003A20 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003A28 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003A30 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003A38 1C 00 00 03 DC::kCallFf: ( set-boolean '#E1772EEC8C88B807 '#0000000000000000 'self )
+            loc_8 - CODE: 0x00003A40 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00003388 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003390 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, AFBEF0F367C24B74(#AFBEF0F367C24B74)
+            loc_2 - CODE: 0x00003398 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x000033A0 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000033A8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x000033B0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x000033B8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x000033C0 1C 00 00 03 DC::kCallFf: ( set-boolean '#AFBEF0F367C24B74 '#0000000000000000 'self )
+            loc_8 - CODE: 0x000033C8 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00003108 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003110 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 115E43488ECF5F51(#115E43488ECF5F51)
+            loc_2 - CODE: 0x00003118 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003120 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003128 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003130 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003138 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003140 1C 00 00 03 DC::kCallFf: ( set-boolean '#115E43488ECF5F51 '#0000000000000000 'self )
+            loc_8 - CODE: 0x00003148 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00003168 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003170 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 14E0C7ACE1E6093E(#14E0C7ACE1E6093E)
+            loc_2 - CODE: 0x00003178 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003180 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003188 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003190 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003198 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x000031A0 1C 00 00 03 DC::kCallFf: ( set-boolean '#14E0C7ACE1E6093E '#0000000000000000 'self )
+            loc_8 - CODE: 0x000031A8 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00004628 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x8915180DCA0153C8(event-arg-count)
+            loc_1 - CODE: 0x00004630 1C 00 00 00 DC::kCallFf: ( event-arg-count )
+            loc_2 - CODE: 0x00004638 0C 01 01 00 DC::kLoadU16Immediate: R1, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x00004640 21 00 00 01 DC::kIlte: R0 <= R1
+            loc_4 - CODE: 0x00004648 2E 09 00 00 DC::kBranchIf: B loc_9
+            loc_5 - CODE: 0x00004650 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xF6549A891F60998B(event-arg-boolean)
+            loc_6 - CODE: 0x00004658 0C 01 01 00 DC::kLoadU16Immediate: R1, 1 | (0 << 0x8)
+            loc_7 - CODE: 0x00004660 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_8 - CODE: 0x00004668 1C 00 00 01 DC::kCallFf: ( event-arg-boolean '#0000000000000001 )
+            loc_9 - CODE: 0x00004670 2F 13 00 00 DC::kBranchIfNot: B loc_19
+            loc_10 - CODE: 0x00004678 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_11 - CODE: 0x00004680 4A 01 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 1E22AD2DE97D10E1(#1E22AD2DE97D10E1)
+            loc_12 - CODE: 0x00004688 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_13 - CODE: 0x00004690 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_14 - CODE: 0x00004698 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x000046A0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x000046A8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_17 - CODE: 0x000046B0 1C 00 00 03 DC::kCallFf: ( set-boolean '#1E22AD2DE97D10E1 '#0000000000000000 'self )
+            loc_18 - CODE: 0x000046B8 2D 1B 00 00 DC::kBranch: B loc_27
+            loc_19 - CODE: 0x000046C0 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_20 - CODE: 0x000046C8 4A 01 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 1E22AD2DE97D10E1(#1E22AD2DE97D10E1)
+            loc_21 - CODE: 0x000046D0 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_22 - CODE: 0x000046D8 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_23 - CODE: 0x000046E0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_24 - CODE: 0x000046E8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_25 - CODE: 0x000046F0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_26 - CODE: 0x000046F8 1C 00 00 03 DC::kCallFf: ( set-boolean '#1E22AD2DE97D10E1 '#0000000000000001 'self )
+            loc_27 - CODE: 0x00004700 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x000062B8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x8915180DCA0153C8(event-arg-count)
+            loc_1 - CODE: 0x000062C0 1C 00 00 00 DC::kCallFf: ( event-arg-count )
+            loc_2 - CODE: 0x000062C8 0C 01 02 00 DC::kLoadU16Immediate: R1, 2 | (0 << 0x8)
+            loc_3 - CODE: 0x000062D0 1F 00 00 01 DC::kIgte: R0 >= R1
+            loc_4 - CODE: 0x000062D8 2F 09 00 00 DC::kBranchIfNot: B loc_5
+            loc_5 - CODE: 0x000062E0 15 00 01 00 DC::kLookupInteger/kLookupFloat: R0 R1 -> hashid: 0xF6549A891F60998B(event-arg-boolean)
+            loc_6 - CODE: 0x000062E8 0C 01 02 00 DC::kLoadU16Immediate: R1, 2 | (0 << 0x8)
+            loc_7 - CODE: 0x000062F0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_8 - CODE: 0x000062F8 1C 00 00 01 DC::kCallFf: ( event-arg-boolean '#0000000000000002 )
+            loc_9 - CODE: 0x00006300 2F 3B 00 00 DC::kBranchIfNot: B loc_59
+            loc_10 - CODE: 0x00006308 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_11 - CODE: 0x00006310 4A 01 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 87D7EC1A04628DD9(#87D7EC1A04628DD9)
+            loc_12 - CODE: 0x00006318 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_13 - CODE: 0x00006320 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_14 - CODE: 0x00006328 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x00006330 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x00006338 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_17 - CODE: 0x00006340 1C 00 00 03 DC::kCallFf: ( set-boolean '#87D7EC1A04628DD9 '#0000000000000000 'self )
+            loc_18 - CODE: 0x00006348 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_19 - CODE: 0x00006350 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2AD440C91E193029(#2AD440C91E193029)
+            loc_20 - CODE: 0x00006358 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_21 - CODE: 0x00006360 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_22 - CODE: 0x00006368 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x00006370 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x00006378 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_25 - CODE: 0x00006380 1C 00 00 03 DC::kCallFf: ( set-boolean '#2AD440C91E193029 '#0000000000000000 'self )
+            loc_26 - CODE: 0x00006388 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_27 - CODE: 0x00006390 4A 01 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9BF9DCD2ED9290B6(#9BF9DCD2ED9290B6)
+            loc_28 - CODE: 0x00006398 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_29 - CODE: 0x000063A0 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_30 - CODE: 0x000063A8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_31 - CODE: 0x000063B0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_32 - CODE: 0x000063B8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_33 - CODE: 0x000063C0 1C 00 00 03 DC::kCallFf: ( set-boolean '#9BF9DCD2ED9290B6 '#0000000000000000 'self )
+            loc_34 - CODE: 0x000063C8 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_35 - CODE: 0x000063D0 4A 01 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, D66BF521730AA5A3(#D66BF521730AA5A3)
+            loc_36 - CODE: 0x000063D8 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_37 - CODE: 0x000063E0 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_38 - CODE: 0x000063E8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_39 - CODE: 0x000063F0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_40 - CODE: 0x000063F8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_41 - CODE: 0x00006400 1C 00 00 03 DC::kCallFf: ( set-boolean '#D66BF521730AA5A3 '#0000000000000000 'self )
+            loc_42 - CODE: 0x00006408 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_43 - CODE: 0x00006410 4A 01 08 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A937716D0A0C3920(#A937716D0A0C3920)
+            loc_44 - CODE: 0x00006418 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_45 - CODE: 0x00006420 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_46 - CODE: 0x00006428 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_47 - CODE: 0x00006430 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_48 - CODE: 0x00006438 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_49 - CODE: 0x00006440 1C 00 00 03 DC::kCallFf: ( set-boolean '#A937716D0A0C3920 '#0000000000000000 'self )
+            loc_50 - CODE: 0x00006448 15 00 02 00 DC::kLookupInteger/kLookupFloat: R0 R2 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_51 - CODE: 0x00006450 4A 01 09 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8EB670EB4FE67169(#8EB670EB4FE67169)
+            loc_52 - CODE: 0x00006458 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_53 - CODE: 0x00006460 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_54 - CODE: 0x00006468 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_55 - CODE: 0x00006470 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_56 - CODE: 0x00006478 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_57 - CODE: 0x00006480 1C 00 00 03 DC::kCallFf: ( set-boolean '#8EB670EB4FE67169 '#0000000000000001 'self )
+            loc_58 - CODE: 0x00006488 2D 3C 00 00 DC::kBranch: B loc_60
+            loc_59 - CODE: 0x00006490 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_60 - CODE: 0x00006498 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+        (
+            loc_0 - CODE: 0x00004000 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x0C82AA83D69D3302(timer-done?)
+            loc_1 - CODE: 0x00004008 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00004010 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004018 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00004020 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00004028 1B 00 00 02 DC::kCall: ( timer-done? 'countdown-timer 'self )
+            loc_6 - CODE: 0x00004030 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00004038 2F 32 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00004040 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_9 - CODE: 0x00004048 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_10 - CODE: 0x00004050 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_11 - CODE: 0x00004058 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00004060 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00004068 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_14 - CODE: 0x00004070 30 00 00 00 DC::kNot: R0 R0
+            loc_15 - CODE: 0x00004078 2F 30 00 00 DC::kBranchIfNot: B loc_16
+            loc_16 - CODE: 0x00004080 15 00 05 00 DC::kLookupInteger/kLookupFloat: R0 R5 -> hashid: 0xE04D6B2695705B11(speak-text-to-speech-formatted)
+            loc_17 - CODE: 0x00004088 15 01 06 00 DC::kLookupInteger/kLookupFloat: R1 R6 -> hashid: 0xD82EC0D287B608D7(cipher-box-formatted-number-string)
+            loc_18 - CODE: 0x00004090 4A 02 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 08DA7F0DC2325185(TIME_SECOND_FMT)
+            loc_19 - CODE: 0x00004098 15 03 08 00 DC::kLookupInteger/kLookupFloat: R3 R8 -> hashid: 0x9BB21FEAAF90CE69(event-arg-float)
+            loc_20 - CODE: 0x000040A0 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_21 - CODE: 0x000040A8 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_22 - CODE: 0x000040B0 1C 03 03 01 DC::kCallFf: ( event-arg-float '#0000000000000000 )
+            loc_23 - CODE: 0x000040B8 19 03 03 00 DC::kCastInteger: R3, S3
+            loc_24 - CODE: 0x000040C0 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_25 - CODE: 0x000040C8 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_26 - CODE: 0x000040D0 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_27 - CODE: 0x000040D8 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_28 - CODE: 0x000040E0 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_29 - CODE: 0x000040E8 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_30 - CODE: 0x000040F0 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_31 - CODE: 0x000040F8 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_32 - CODE: 0x00004100 1C 01 01 05 DC::kCallFf: ( cipher-box-formatted-number-string 'TIME_SECOND_FMT '#9BB21FEA00000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_33 - CODE: 0x00004108 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_34 - CODE: 0x00004110 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_35 - CODE: 0x00004118 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_36 - CODE: 0x00004120 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_37 - CODE: 0x00004128 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_38 - CODE: 0x00004130 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_39 - CODE: 0x00004138 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_40 - CODE: 0x00004140 1B 00 00 04 DC::kCall: ( speak-text-to-speech-formatted 'cipher-box-formatted-number-string '#0000000000000001 '#0000000000000000 '#0000000000000001 )
+            loc_41 - CODE: 0x00004148 15 00 09 00 DC::kLookupInteger/kLookupFloat: R0 R9 -> hashid: 0x08953907B53F670B(go)
+            loc_42 - CODE: 0x00004150 4A 01 0A 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 4ADB7A27F0CF87E9(countdown-active)
+            loc_43 - CODE: 0x00004158 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_44 - CODE: 0x00004160 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_45 - CODE: 0x00004168 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_46 - CODE: 0x00004170 1C 00 00 02 DC::kCallFf: ( go 'countdown-active '#0000000000000001 )
+            loc_47 - CODE: 0x00004178 2D 31 00 00 DC::kBranch: B loc_49
+            loc_48 - CODE: 0x00004180 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_49 - CODE: 0x00004188 2D 33 00 00 DC::kBranch: B loc_51
+            loc_50 - CODE: 0x00004190 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_51 - CODE: 0x00004198 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#ED6D674B86C6AD1B)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003AB0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6932BC7439D3BB31(timer-running?)
+            loc_1 - CODE: 0x00003AB8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00003AC0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003AC8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00003AD0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00003AD8 1B 00 00 02 DC::kCall: ( timer-running? 'countdown-timer 'self )
+            loc_6 - CODE: 0x00003AE0 2F 37 00 00 DC::kBranchIfNot: B loc_55
+            loc_7 - CODE: 0x00003AE8 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x6057AC01564CB080(set-timer-paused)
+            loc_8 - CODE: 0x00003AF0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_9 - CODE: 0x00003AF8 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_10 - CODE: 0x00003B00 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_11 - CODE: 0x00003B08 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00003B10 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00003B18 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_14 - CODE: 0x00003B20 1C 00 00 03 DC::kCallFf: ( set-timer-paused 'countdown-timer '#0000000000000001 'self )
+            loc_15 - CODE: 0x00003B28 15 00 04 00 DC::kLookupInteger/kLookupFloat: R0 R4 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_16 - CODE: 0x00003B30 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_17 - CODE: 0x00003B38 15 02 06 00 DC::kLookupInteger/kLookupFloat: R2 R6 -> hashid: 0x9BB21FEAAF90CE69(event-arg-float)
+            loc_18 - CODE: 0x00003B40 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_19 - CODE: 0x00003B48 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_20 - CODE: 0x00003B50 1C 02 02 01 DC::kCallFf: ( event-arg-float '#0000000000000000 )
+            loc_21 - CODE: 0x00003B58 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_22 - CODE: 0x00003B60 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_23 - CODE: 0x00003B68 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_24 - CODE: 0x00003B70 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_25 - CODE: 0x00003B78 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_26 - CODE: 0x00003B80 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_27 - CODE: 0x00003B88 1B 00 00 04 DC::kCall: ( start-timer 'pause-timer 'event-arg-float 'self '#0000000000000001 )
+            loc_28 - CODE: 0x00003B90 15 00 07 00 DC::kLookupInteger/kLookupFloat: R0 R7 -> hashid: 0x0C82AA83D69D3302(timer-done?)
+            loc_29 - CODE: 0x00003B98 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_30 - CODE: 0x00003BA0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_31 - CODE: 0x00003BA8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_32 - CODE: 0x00003BB0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_33 - CODE: 0x00003BB8 1B 00 00 02 DC::kCall: ( timer-done? 'pause-timer 'self )
+            loc_34 - CODE: 0x00003BC0 30 00 00 00 DC::kNot: R0 R0
+            loc_35 - CODE: 0x00003BC8 2F 35 00 00 DC::kBranchIfNot: B loc_36
+            loc_36 - CODE: 0x00003BD0 15 00 08 00 DC::kLookupInteger/kLookupFloat: R0 R8 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_37 - CODE: 0x00003BD8 4A 01 09 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_38 - CODE: 0x00003BE0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_39 - CODE: 0x00003BE8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_40 - CODE: 0x00003BF0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_41 - CODE: 0x00003BF8 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_42 - CODE: 0x00003C00 30 00 00 00 DC::kNot: R0 R0
+            loc_43 - CODE: 0x00003C08 2F 33 00 00 DC::kBranchIfNot: B loc_44
+            loc_44 - CODE: 0x00003C10 15 00 0A 00 DC::kLookupInteger/kLookupFloat: R0 R10 -> hashid: 0x08953907B53F670B(go)
+            loc_45 - CODE: 0x00003C18 4A 01 0B 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9901994042F87AB9(countdown-paused)
+            loc_46 - CODE: 0x00003C20 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_47 - CODE: 0x00003C28 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_48 - CODE: 0x00003C30 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_49 - CODE: 0x00003C38 1C 00 00 02 DC::kCallFf: ( go 'countdown-paused '#0000000000000001 )
+            loc_50 - CODE: 0x00003C40 2D 34 00 00 DC::kBranch: B loc_52
+            loc_51 - CODE: 0x00003C48 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_52 - CODE: 0x00003C50 2D 36 00 00 DC::kBranch: B loc_54
+            loc_53 - CODE: 0x00003C58 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_54 - CODE: 0x00003C60 2D 38 00 00 DC::kBranch: B loc_56
+            loc_55 - CODE: 0x00003C68 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_56 - CODE: 0x00003C70 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#C036017E26DD046A)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005C18 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6932BC7439D3BB31(timer-running?)
+            loc_1 - CODE: 0x00005C20 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_2 - CODE: 0x00005C28 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00005C30 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005C38 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005C40 1B 00 00 02 DC::kCall: ( timer-running? 'pause-timer 'self )
+            loc_6 - CODE: 0x00005C48 2F 34 00 00 DC::kBranchIfNot: B loc_52
+            loc_7 - CODE: 0x00005C50 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_8 - CODE: 0x00005C58 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_9 - CODE: 0x00005C60 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x00005C68 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x00005C70 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x00005C78 1B 00 00 02 DC::kCall: ( stop-timer 'pause-timer 'self )
+            loc_13 - CODE: 0x00005C80 15 00 04 00 DC::kLookupInteger/kLookupFloat: R0 R4 -> hashid: 0x6057AC01564CB080(set-timer-paused)
+            loc_14 - CODE: 0x00005C88 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_15 - CODE: 0x00005C90 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_16 - CODE: 0x00005C98 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_17 - CODE: 0x00005CA0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_18 - CODE: 0x00005CA8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_19 - CODE: 0x00005CB0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_20 - CODE: 0x00005CB8 1C 00 00 03 DC::kCallFf: ( set-timer-paused 'countdown-timer '#0000000000000000 'self )
+            loc_21 - CODE: 0x00005CC0 15 00 06 00 DC::kLookupInteger/kLookupFloat: R0 R6 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_22 - CODE: 0x00005CC8 4A 01 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_23 - CODE: 0x00005CD0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_24 - CODE: 0x00005CD8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_25 - CODE: 0x00005CE0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_26 - CODE: 0x00005CE8 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_27 - CODE: 0x00005CF0 30 00 00 00 DC::kNot: R0 R0
+            loc_28 - CODE: 0x00005CF8 2F 32 00 00 DC::kBranchIfNot: B loc_29
+            loc_29 - CODE: 0x00005D00 15 00 08 00 DC::kLookupInteger/kLookupFloat: R0 R8 -> hashid: 0x0C82AA83D69D3302(timer-done?)
+            loc_30 - CODE: 0x00005D08 4A 01 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_31 - CODE: 0x00005D10 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_32 - CODE: 0x00005D18 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_33 - CODE: 0x00005D20 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_34 - CODE: 0x00005D28 1B 00 00 02 DC::kCall: ( timer-done? 'countdown-timer 'self )
+            loc_35 - CODE: 0x00005D30 2F 2B 00 00 DC::kBranchIfNot: B loc_43
+            loc_36 - CODE: 0x00005D38 15 00 09 00 DC::kLookupInteger/kLookupFloat: R0 R9 -> hashid: 0x08953907B53F670B(go)
+            loc_37 - CODE: 0x00005D40 4A 01 0A 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, EBADA5168620C5FE(default)
+            loc_38 - CODE: 0x00005D48 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_39 - CODE: 0x00005D50 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_40 - CODE: 0x00005D58 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_41 - CODE: 0x00005D60 1C 00 00 02 DC::kCallFf: ( go 'default '#0000000000000001 )
+            loc_42 - CODE: 0x00005D68 2D 31 00 00 DC::kBranch: B loc_49
+            loc_43 - CODE: 0x00005D70 15 00 09 00 DC::kLookupInteger/kLookupFloat: R0 R9 -> hashid: 0x08953907B53F670B(go)
+            loc_44 - CODE: 0x00005D78 4A 01 0B 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 4ADB7A27F0CF87E9(countdown-active)
+            loc_45 - CODE: 0x00005D80 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_46 - CODE: 0x00005D88 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_47 - CODE: 0x00005D90 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_48 - CODE: 0x00005D98 1C 00 00 02 DC::kCallFf: ( go 'countdown-active '#0000000000000001 )
+            loc_49 - CODE: 0x00005DA0 2D 33 00 00 DC::kBranch: B loc_51
+            loc_50 - CODE: 0x00005DA8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_51 - CODE: 0x00005DB0 2D 35 00 00 DC::kBranch: B loc_53
+            loc_52 - CODE: 0x00005DB8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_53 - CODE: 0x00005DC0 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#297F120B64AEE026)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005A48 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+        (
+            loc_0 - CODE: 0x000060D0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x1317E5AD84E360F9(stop-timer)
+            loc_1 - CODE: 0x000060D8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_2 - CODE: 0x000060E0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000060E8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000060F0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000060F8 1B 00 00 02 DC::kCall: ( stop-timer 'pause-timer 'self )
+            loc_6 - CODE: 0x00006100 00 00 00 00 DC::kScriptCodeReturn: 0x1317E5AD84E360F9
+        )
+        (
+            loc_0 - CODE: 0x00005850 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6932BC7439D3BB31(timer-running?)
+            loc_1 - CODE: 0x00005858 4A 31 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00005860 4A 32 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R50, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00005868 1B 00 00 02 DC::kCall: ( timer-running? 'countdown-timer 'self )
+            loc_4 - CODE: 0x00005870 2F 0C 00 00 DC::kBranchIfNot: B loc_12
+            loc_5 - CODE: 0x00005878 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_6 - CODE: 0x00005880 4A 31 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R49, 9F177261FB39347C(countdown-timer)
+            loc_7 - CODE: 0x00005888 0C 32 02 00 DC::kLoadU16Immediate: R50, 2 | (0 << 0x8)
+            loc_8 - CODE: 0x00005890 1A 32 32 00 DC::kCastFloat: S50, S50
+            loc_9 - CODE: 0x00005898 4A 33 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R51, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000058A0 0C 34 01 00 DC::kLoadU16Immediate: R52, 1 | (0 << 0x8)
+            loc_11 - CODE: 0x000058A8 1B 00 00 04 DC::kCall: ( start-timer 'countdown-timer '#0000000000000000 'self '#0000000000000001 )
+            loc_12 - CODE: 0x000058B0 00 00 00 00 DC::kScriptCodeReturn: 0xDE501F9391C784C7
+        )
+        (
+            loc_0 - CODE: 0x00005A48 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#B682593AEF542954)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x000041F8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00004200 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xC7876E4878C59556(gui2-build-widget-path)
+            loc_2 - CODE: 0x00004208 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004210 41 03 03 00 DC::kLoadStaticPointerImm: R3, 000001D980C69F72 // offset 6842
+            loc_4 - CODE: 0x00004218 41 04 04 00 DC::kLoadStaticPointerImm: R4, 000001D980C6A16A // offset 6A3A
+            loc_5 - CODE: 0x00004220 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00004228 0C 06 00 00 DC::kLoadU16Immediate: R6, 0 | (0 << 0x8)
+            loc_7 - CODE: 0x00004230 0C 07 00 00 DC::kLoadU16Immediate: R7, 0 | (0 << 0x8)
+            loc_8 - CODE: 0x00004238 0C 08 00 00 DC::kLoadU16Immediate: R8, 0 | (0 << 0x8)
+            loc_9 - CODE: 0x00004240 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_10 - CODE: 0x00004248 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_11 - CODE: 0x00004250 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_12 - CODE: 0x00004258 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_13 - CODE: 0x00004260 43 33 04 00 DC::kMoveInteger/kMovePointer/kMove: R51, R4
+            loc_14 - CODE: 0x00004268 43 34 05 00 DC::kMoveInteger/kMovePointer/kMove: R52, R5
+            loc_15 - CODE: 0x00004270 43 35 06 00 DC::kMoveInteger/kMovePointer/kMove: R53, R6
+            loc_16 - CODE: 0x00004278 43 36 07 00 DC::kMoveInteger/kMovePointer/kMove: R54, R7
+            loc_17 - CODE: 0x00004280 43 37 08 00 DC::kMoveInteger/kMovePointer/kMove: R55, R8
+            loc_18 - CODE: 0x00004288 43 38 09 00 DC::kMoveInteger/kMovePointer/kMove: R56, R9
+            loc_19 - CODE: 0x00004290 43 39 0A 00 DC::kMoveInteger/kMovePointer/kMove: R57, R10
+            loc_20 - CODE: 0x00004298 1C 01 01 09 DC::kCallFf: ( gui2-build-widget-path 'self '#0000000000006842 '#0000000000006A3A '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_21 - CODE: 0x000042A0 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_22 - CODE: 0x000042A8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_23 - CODE: 0x000042B0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_24 - CODE: 0x000042B8 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'gui2-build-widget-path '#0000000000000000 )
+            loc_25 - CODE: 0x000042C0 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+    (on (event 'countdown-timer)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x000058E0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xDE501F9391C784C7(start-timer)
+            loc_1 - CODE: 0x000058E8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 254979EBFEBAB098(#254979EBFEBAB098)
+            loc_2 - CODE: 0x000058F0 15 02 02 00 DC::kLookupInteger/kLookupFloat: R2 R2 -> hashid: 0x94F8EF61E9D92684(get-float)
+            loc_3 - CODE: 0x000058F8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 8F1A8C00AF9FAC4F(#8F1A8C00AF9FAC4F)
+            loc_4 - CODE: 0x00005900 4A 04 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2D19E518D40792B7(self)
+            loc_5 - CODE: 0x00005908 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_6 - CODE: 0x00005910 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_7 - CODE: 0x00005918 1C 02 02 02 DC::kCallFf: ( get-float '#8F1A8C00AF9FAC4F 'self )
+            loc_8 - CODE: 0x00005920 4A 03 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_9 - CODE: 0x00005928 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_10 - CODE: 0x00005930 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x00005938 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x00005940 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_13 - CODE: 0x00005948 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_14 - CODE: 0x00005950 1B 00 00 04 DC::kCall: ( start-timer '#254979EBFEBAB098 'get-float 'self '#0000000000000001 )
+            loc_15 - CODE: 0x00005958 00 00 00 00 DC::kScriptCodeReturn: 0xDE501F9391C784C7
+        )
+        (
+            loc_0 - CODE: 0x00003930 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x00003938 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 14E0C7ACE1E6093E(#14E0C7ACE1E6093E)
+            loc_2 - CODE: 0x00003940 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00003948 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00003950 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00003958 1C 00 00 02 DC::kCallFf: ( get-boolean '#14E0C7ACE1E6093E 'self )
+            loc_6 - CODE: 0x00003960 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00003968 2F 13 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00003970 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x8C7D49D0F2AF28FC(#8C7D49D0F2AF28FC)
+            loc_9 - CODE: 0x00003978 1B 00 00 00 DC::kCall: ( #8C7D49D0F2AF28FC )
+            loc_10 - CODE: 0x00003980 15 00 04 00 DC::kLookupInteger/kLookupFloat: R0 R4 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_11 - CODE: 0x00003988 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 14E0C7ACE1E6093E(#14E0C7ACE1E6093E)
+            loc_12 - CODE: 0x00003990 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_13 - CODE: 0x00003998 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_14 - CODE: 0x000039A0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x000039A8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x000039B0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_17 - CODE: 0x000039B8 1C 00 00 03 DC::kCallFf: ( set-boolean '#14E0C7ACE1E6093E '#0000000000000001 'self )
+            loc_18 - CODE: 0x000039C0 2D 14 00 00 DC::kBranch: B loc_20
+            loc_19 - CODE: 0x000039C8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_20 - CODE: 0x000039D0 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+        (
+            loc_0 - CODE: 0x000042F0 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x000042F8 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_2 - CODE: 0x00004300 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004308 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00004310 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00004318 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_6 - CODE: 0x00004320 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00004328 2F 1D 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00004330 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x0C82AA83D69D3302(timer-done?)
+            loc_9 - CODE: 0x00004338 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 254979EBFEBAB098(#254979EBFEBAB098)
+            loc_10 - CODE: 0x00004340 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_11 - CODE: 0x00004348 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00004350 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00004358 1B 00 00 02 DC::kCall: ( timer-done? '#254979EBFEBAB098 'self )
+            loc_14 - CODE: 0x00004360 2F 16 00 00 DC::kBranchIfNot: B loc_22
+            loc_15 - CODE: 0x00004368 15 00 05 00 DC::kLookupInteger/kLookupFloat: R0 R5 -> hashid: 0x08953907B53F670B(go)
+            loc_16 - CODE: 0x00004370 4A 01 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, EBADA5168620C5FE(default)
+            loc_17 - CODE: 0x00004378 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_18 - CODE: 0x00004380 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_19 - CODE: 0x00004388 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_20 - CODE: 0x00004390 1C 00 00 02 DC::kCallFf: ( go 'default '#0000000000000001 )
+            loc_21 - CODE: 0x00004398 2D 1C 00 00 DC::kBranch: B loc_28
+            loc_22 - CODE: 0x000043A0 15 00 05 00 DC::kLookupInteger/kLookupFloat: R0 R5 -> hashid: 0x08953907B53F670B(go)
+            loc_23 - CODE: 0x000043A8 4A 01 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 65FBD5FA8512491F(countdown-after)
+            loc_24 - CODE: 0x000043B0 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_25 - CODE: 0x000043B8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_26 - CODE: 0x000043C0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_27 - CODE: 0x000043C8 1C 00 00 02 DC::kCallFf: ( go 'countdown-after '#0000000000000001 )
+            loc_28 - CODE: 0x000043D0 2D 1E 00 00 DC::kBranch: B loc_30
+            loc_29 - CODE: 0x000043D8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_30 - CODE: 0x000043E0 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event 'pause-timer)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005F98 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6057AC01564CB080(set-timer-paused)
+            loc_1 - CODE: 0x00005FA0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00005FA8 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00005FB0 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00005FB8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00005FC0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00005FC8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00005FD0 1C 00 00 03 DC::kCallFf: ( set-timer-paused 'countdown-timer '#0000000000000000 'self )
+            loc_8 - CODE: 0x00005FD8 00 00 00 00 DC::kScriptCodeReturn: 0x6057AC01564CB080
+        )
+        (
+            loc_0 - CODE: 0x000052C8 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x000052D0 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_2 - CODE: 0x000052D8 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x000052E0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x000052E8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x000052F0 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_6 - CODE: 0x000052F8 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00005300 2F 1D 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00005308 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x0C82AA83D69D3302(timer-done?)
+            loc_9 - CODE: 0x00005310 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_10 - CODE: 0x00005318 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_11 - CODE: 0x00005320 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00005328 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00005330 1B 00 00 02 DC::kCall: ( timer-done? 'countdown-timer 'self )
+            loc_14 - CODE: 0x00005338 2F 16 00 00 DC::kBranchIfNot: B loc_22
+            loc_15 - CODE: 0x00005340 15 00 05 00 DC::kLookupInteger/kLookupFloat: R0 R5 -> hashid: 0x08953907B53F670B(go)
+            loc_16 - CODE: 0x00005348 4A 01 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, EBADA5168620C5FE(default)
+            loc_17 - CODE: 0x00005350 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_18 - CODE: 0x00005358 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_19 - CODE: 0x00005360 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_20 - CODE: 0x00005368 1C 00 00 02 DC::kCallFf: ( go 'default '#0000000000000001 )
+            loc_21 - CODE: 0x00005370 2D 1C 00 00 DC::kBranch: B loc_28
+            loc_22 - CODE: 0x00005378 15 00 05 00 DC::kLookupInteger/kLookupFloat: R0 R5 -> hashid: 0x08953907B53F670B(go)
+            loc_23 - CODE: 0x00005380 4A 01 07 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 4ADB7A27F0CF87E9(countdown-active)
+            loc_24 - CODE: 0x00005388 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_25 - CODE: 0x00005390 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_26 - CODE: 0x00005398 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_27 - CODE: 0x000053A0 1C 00 00 02 DC::kCallFf: ( go 'countdown-active '#0000000000000001 )
+            loc_28 - CODE: 0x000053A8 2D 1E 00 00 DC::kBranch: B loc_30
+            loc_29 - CODE: 0x000053B0 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_30 - CODE: 0x000053B8 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event '#254979EBFEBAB098)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005400 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_1 - CODE: 0x00005408 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 764846B609F687EE(#764846B609F687EE)
+            loc_2 - CODE: 0x00005410 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00005418 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00005420 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00005428 1C 00 00 02 DC::kCallFf: ( get-boolean '#764846B609F687EE 'self )
+            loc_6 - CODE: 0x00005430 30 00 00 00 DC::kNot: R0 R0
+            loc_7 - CODE: 0x00005438 2F 0F 00 00 DC::kBranchIfNot: B loc_8
+            loc_8 - CODE: 0x00005440 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x08953907B53F670B(go)
+            loc_9 - CODE: 0x00005448 4A 01 04 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, EBADA5168620C5FE(default)
+            loc_10 - CODE: 0x00005450 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_11 - CODE: 0x00005458 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_12 - CODE: 0x00005460 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_13 - CODE: 0x00005468 1C 00 00 02 DC::kCallFf: ( go 'default '#0000000000000001 )
+            loc_14 - CODE: 0x00005470 2D 10 00 00 DC::kBranch: B loc_16
+            loc_15 - CODE: 0x00005478 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_16 - CODE: 0x00005480 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+    (on (event 'investigate-started)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005988 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00005990 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_2 - CODE: 0x00005998 0C 02 01 00 DC::kLoadU16Immediate: R2, 1 | (0 << 0x8)
+            loc_3 - CODE: 0x000059A0 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000059A8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x000059B0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x000059B8 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x000059C0 1C 00 00 03 DC::kCallFf: ( set-boolean '#8A3B9F725B6C30CF '#0000000000000001 'self )
+            loc_8 - CODE: 0x000059C8 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00005590 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00005598 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_2 - CODE: 0x000055A0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 0BA419E287D26838(#0BA419E287D26838)
+            loc_3 - CODE: 0x000055A8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000055B0 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x000055B8 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x000055C0 1C 01 01 02 DC::kCallFf: ( get-symbol '#0BA419E287D26838 'self )
+            loc_7 - CODE: 0x000055C8 15 02 04 00 DC::kLookupInteger/kLookupFloat: R2 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_8 - CODE: 0x000055D0 4A 03 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_9 - CODE: 0x000055D8 4A 04 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000055E0 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_11 - CODE: 0x000055E8 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_12 - CODE: 0x000055F0 1C 02 02 02 DC::kCallFf: ( get-boolean '#8A3B9F725B6C30CF 'self )
+            loc_13 - CODE: 0x000055F8 30 02 02 00 DC::kNot: R2 R2
+            loc_14 - CODE: 0x00005600 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x00005608 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x00005610 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'get-symbol '#0000000000000000 )
+            loc_17 - CODE: 0x00005618 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+    (on (event 'investigate-exit-near-ca)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003448 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_1 - CODE: 0x00003450 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_2 - CODE: 0x00003458 0C 02 00 00 DC::kLoadU16Immediate: R2, 0 | (0 << 0x8)
+            loc_3 - CODE: 0x00003460 4A 03 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x00003468 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_5 - CODE: 0x00003470 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_6 - CODE: 0x00003478 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_7 - CODE: 0x00003480 1C 00 00 03 DC::kCallFf: ( set-boolean '#8A3B9F725B6C30CF '#0000000000000000 'self )
+            loc_8 - CODE: 0x00003488 00 00 00 00 DC::kScriptCodeReturn: 0xFF17C0DCE7D03192
+        )
+        (
+            loc_0 - CODE: 0x00005590 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0xCCF99AA7589D1AF9(gui2-set-widget-visible)
+            loc_1 - CODE: 0x00005598 15 01 01 00 DC::kLookupInteger/kLookupFloat: R1 R1 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_2 - CODE: 0x000055A0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 0BA419E287D26838(#0BA419E287D26838)
+            loc_3 - CODE: 0x000055A8 4A 03 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 2D19E518D40792B7(self)
+            loc_4 - CODE: 0x000055B0 43 31 02 00 DC::kMoveInteger/kMovePointer/kMove: R49, R2
+            loc_5 - CODE: 0x000055B8 43 32 03 00 DC::kMoveInteger/kMovePointer/kMove: R50, R3
+            loc_6 - CODE: 0x000055C0 1C 01 01 02 DC::kCallFf: ( get-symbol '#0BA419E287D26838 'self )
+            loc_7 - CODE: 0x000055C8 15 02 04 00 DC::kLookupInteger/kLookupFloat: R2 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_8 - CODE: 0x000055D0 4A 03 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R3, 8A3B9F725B6C30CF(#8A3B9F725B6C30CF)
+            loc_9 - CODE: 0x000055D8 4A 04 03 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000055E0 43 31 03 00 DC::kMoveInteger/kMovePointer/kMove: R49, R3
+            loc_11 - CODE: 0x000055E8 43 32 04 00 DC::kMoveInteger/kMovePointer/kMove: R50, R4
+            loc_12 - CODE: 0x000055F0 1C 02 02 02 DC::kCallFf: ( get-boolean '#8A3B9F725B6C30CF 'self )
+            loc_13 - CODE: 0x000055F8 30 02 02 00 DC::kNot: R2 R2
+            loc_14 - CODE: 0x00005600 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_15 - CODE: 0x00005608 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_16 - CODE: 0x00005610 1C 00 00 02 DC::kCallFf: ( gui2-set-widget-visible 'get-symbol '#0000000000000000 )
+            loc_17 - CODE: 0x00005618 00 00 00 00 DC::kScriptCodeReturn: 0xCCF99AA7589D1AF9
+        )
+      )
+    )
+  )
+  (state ("countdown-active")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005780 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3D1686E42EE91A7E(gui2-set-widget-state)
+            loc_1 - CODE: 0x00005788 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005790 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 4ADB7A27F0CF87E9(countdown-active)
+            loc_3 - CODE: 0x00005798 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x000057A0 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x000057A8 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x000057B0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_7 - CODE: 0x000057B8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_8 - CODE: 0x000057C0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_9 - CODE: 0x000057C8 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_10 - CODE: 0x000057D0 43 35 05 00 DC::kMoveInteger/kMovePointer/kMove: R53, R5
+            loc_11 - CODE: 0x000057D8 1C 00 00 05 DC::kCallFf: ( gui2-set-widget-state 'self 'countdown-active '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_12 - CODE: 0x000057E0 00 00 00 00 DC::kScriptCodeReturn: 0x3D1686E42EE91A7E
+        )
+      )
+    )
+    (on (update)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00004858 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6932BC7439D3BB31(timer-running?)
+            loc_1 - CODE: 0x00004860 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_2 - CODE: 0x00004868 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00004870 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00004878 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00004880 1B 00 00 02 DC::kCall: ( timer-running? 'countdown-timer 'self )
+            loc_6 - CODE: 0x00004888 2F 34 00 01 DC::kBranchIfNot: B loc_308
+            loc_7 - CODE: 0x00004890 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x83A985E93B103FE7(get-timer-value)
+            loc_8 - CODE: 0x00004898 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 9F177261FB39347C(countdown-timer)
+            loc_9 - CODE: 0x000048A0 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000048A8 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x000048B0 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x000048B8 1B 00 00 02 DC::kCall: ( get-timer-value 'countdown-timer 'self )
+            loc_13 - CODE: 0x000048C0 43 01 00 00 DC::kMoveInteger/kMovePointer/kMove: R1, R0
+            loc_14 - CODE: 0x000048C8 19 01 01 00 DC::kCastInteger: R1, S1
+            loc_15 - CODE: 0x000048D0 43 02 00 00 DC::kMoveInteger/kMovePointer/kMove: R2, R0
+            loc_16 - CODE: 0x000048D8 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_17 - CODE: 0x000048E0 1A 03 03 00 DC::kCastFloat: S3, S3
+            loc_18 - CODE: 0x000048E8 06 02 02 03 DC::kScriptCodeFSubtract: S2, S2, S3
+            loc_19 - CODE: 0x000048F0 0C 03 0A 00 DC::kLoadU16Immediate: R3, 10 | (0 << 0x8)
+            loc_20 - CODE: 0x000048F8 1A 03 03 00 DC::kCastFloat: S3, S3
+            loc_21 - CODE: 0x00004900 07 02 02 03 DC::kScriptCodeFMultiply: S2, S2, S3
+            loc_22 - CODE: 0x00004908 19 02 02 00 DC::kCastInteger: R2, S2
+            loc_23 - CODE: 0x00004910 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_24 - CODE: 0x00004918 0C 04 0A 00 DC::kLoadU16Immediate: R4, 10 | (0 << 0x8)
+            loc_25 - CODE: 0x00004920 20 03 03 04 DC::kIlt: R3 < R4
+            loc_26 - CODE: 0x00004928 2F 22 03 00 DC::kBranchIfNot: B loc_34
+            loc_27 - CODE: 0x00004930 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_28 - CODE: 0x00004938 4A 04 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 87D7EC1A04628DD9(#87D7EC1A04628DD9)
+            loc_29 - CODE: 0x00004940 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_30 - CODE: 0x00004948 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_31 - CODE: 0x00004950 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_32 - CODE: 0x00004958 1C 03 03 02 DC::kCallFf: ( get-boolean '#87D7EC1A04628DD9 'self )
+            loc_33 - CODE: 0x00004960 30 03 03 00 DC::kNot: R3 R3
+            loc_34 - CODE: 0x00004968 2F 2E 03 00 DC::kBranchIfNot: B loc_35
+            loc_35 - CODE: 0x00004970 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_36 - CODE: 0x00004978 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_37 - CODE: 0x00004980 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_38 - CODE: 0x00004988 4A 04 05 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 87D7EC1A04628DD9(#87D7EC1A04628DD9)
+            loc_39 - CODE: 0x00004990 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_40 - CODE: 0x00004998 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_41 - CODE: 0x000049A0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_42 - CODE: 0x000049A8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_43 - CODE: 0x000049B0 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_44 - CODE: 0x000049B8 1C 03 03 03 DC::kCallFf: ( set-boolean '#87D7EC1A04628DD9 '#0000000000000001 'self )
+            loc_45 - CODE: 0x000049C0 2D 19 00 01 DC::kBranch: B loc_281
+            loc_46 - CODE: 0x000049C8 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_47 - CODE: 0x000049D0 0C 04 09 00 DC::kLoadU16Immediate: R4, 9 | (0 << 0x8)
+            loc_48 - CODE: 0x000049D8 20 03 03 04 DC::kIlt: R3 < R4
+            loc_49 - CODE: 0x000049E0 2F 39 03 00 DC::kBranchIfNot: B loc_57
+            loc_50 - CODE: 0x000049E8 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_51 - CODE: 0x000049F0 4A 04 08 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2AD440C91E193029(#2AD440C91E193029)
+            loc_52 - CODE: 0x000049F8 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_53 - CODE: 0x00004A00 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_54 - CODE: 0x00004A08 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_55 - CODE: 0x00004A10 1C 03 03 02 DC::kCallFf: ( get-boolean '#2AD440C91E193029 'self )
+            loc_56 - CODE: 0x00004A18 30 03 03 00 DC::kNot: R3 R3
+            loc_57 - CODE: 0x00004A20 2F 45 03 00 DC::kBranchIfNot: B loc_58
+            loc_58 - CODE: 0x00004A28 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_59 - CODE: 0x00004A30 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_60 - CODE: 0x00004A38 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_61 - CODE: 0x00004A40 4A 04 08 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 2AD440C91E193029(#2AD440C91E193029)
+            loc_62 - CODE: 0x00004A48 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_63 - CODE: 0x00004A50 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_64 - CODE: 0x00004A58 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_65 - CODE: 0x00004A60 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_66 - CODE: 0x00004A68 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_67 - CODE: 0x00004A70 1C 03 03 03 DC::kCallFf: ( set-boolean '#2AD440C91E193029 '#0000000000000001 'self )
+            loc_68 - CODE: 0x00004A78 2D 19 00 01 DC::kBranch: B loc_281
+            loc_69 - CODE: 0x00004A80 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_70 - CODE: 0x00004A88 0C 04 08 00 DC::kLoadU16Immediate: R4, 8 | (0 << 0x8)
+            loc_71 - CODE: 0x00004A90 20 03 03 04 DC::kIlt: R3 < R4
+            loc_72 - CODE: 0x00004A98 2F 50 03 00 DC::kBranchIfNot: B loc_80
+            loc_73 - CODE: 0x00004AA0 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_74 - CODE: 0x00004AA8 4A 04 09 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 9BF9DCD2ED9290B6(#9BF9DCD2ED9290B6)
+            loc_75 - CODE: 0x00004AB0 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_76 - CODE: 0x00004AB8 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_77 - CODE: 0x00004AC0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_78 - CODE: 0x00004AC8 1C 03 03 02 DC::kCallFf: ( get-boolean '#9BF9DCD2ED9290B6 'self )
+            loc_79 - CODE: 0x00004AD0 30 03 03 00 DC::kNot: R3 R3
+            loc_80 - CODE: 0x00004AD8 2F 5C 03 00 DC::kBranchIfNot: B loc_81
+            loc_81 - CODE: 0x00004AE0 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_82 - CODE: 0x00004AE8 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_83 - CODE: 0x00004AF0 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_84 - CODE: 0x00004AF8 4A 04 09 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 9BF9DCD2ED9290B6(#9BF9DCD2ED9290B6)
+            loc_85 - CODE: 0x00004B00 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_86 - CODE: 0x00004B08 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_87 - CODE: 0x00004B10 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_88 - CODE: 0x00004B18 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_89 - CODE: 0x00004B20 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_90 - CODE: 0x00004B28 1C 03 03 03 DC::kCallFf: ( set-boolean '#9BF9DCD2ED9290B6 '#0000000000000001 'self )
+            loc_91 - CODE: 0x00004B30 2D 19 00 01 DC::kBranch: B loc_281
+            loc_92 - CODE: 0x00004B38 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_93 - CODE: 0x00004B40 0C 04 07 00 DC::kLoadU16Immediate: R4, 7 | (0 << 0x8)
+            loc_94 - CODE: 0x00004B48 20 03 03 04 DC::kIlt: R3 < R4
+            loc_95 - CODE: 0x00004B50 2F 67 03 00 DC::kBranchIfNot: B loc_103
+            loc_96 - CODE: 0x00004B58 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_97 - CODE: 0x00004B60 4A 04 0A 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, D66BF521730AA5A3(#D66BF521730AA5A3)
+            loc_98 - CODE: 0x00004B68 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_99 - CODE: 0x00004B70 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_100 - CODE: 0x00004B78 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_101 - CODE: 0x00004B80 1C 03 03 02 DC::kCallFf: ( get-boolean '#D66BF521730AA5A3 'self )
+            loc_102 - CODE: 0x00004B88 30 03 03 00 DC::kNot: R3 R3
+            loc_103 - CODE: 0x00004B90 2F 73 03 00 DC::kBranchIfNot: B loc_104
+            loc_104 - CODE: 0x00004B98 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_105 - CODE: 0x00004BA0 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_106 - CODE: 0x00004BA8 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_107 - CODE: 0x00004BB0 4A 04 0A 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, D66BF521730AA5A3(#D66BF521730AA5A3)
+            loc_108 - CODE: 0x00004BB8 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_109 - CODE: 0x00004BC0 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_110 - CODE: 0x00004BC8 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_111 - CODE: 0x00004BD0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_112 - CODE: 0x00004BD8 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_113 - CODE: 0x00004BE0 1C 03 03 03 DC::kCallFf: ( set-boolean '#D66BF521730AA5A3 '#0000000000000001 'self )
+            loc_114 - CODE: 0x00004BE8 2D 19 00 01 DC::kBranch: B loc_281
+            loc_115 - CODE: 0x00004BF0 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_116 - CODE: 0x00004BF8 0C 04 06 00 DC::kLoadU16Immediate: R4, 6 | (0 << 0x8)
+            loc_117 - CODE: 0x00004C00 20 03 03 04 DC::kIlt: R3 < R4
+            loc_118 - CODE: 0x00004C08 2F 7E 03 00 DC::kBranchIfNot: B loc_126
+            loc_119 - CODE: 0x00004C10 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_120 - CODE: 0x00004C18 4A 04 0B 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, A937716D0A0C3920(#A937716D0A0C3920)
+            loc_121 - CODE: 0x00004C20 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_122 - CODE: 0x00004C28 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_123 - CODE: 0x00004C30 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_124 - CODE: 0x00004C38 1C 03 03 02 DC::kCallFf: ( get-boolean '#A937716D0A0C3920 'self )
+            loc_125 - CODE: 0x00004C40 30 03 03 00 DC::kNot: R3 R3
+            loc_126 - CODE: 0x00004C48 2F 8A 03 00 DC::kBranchIfNot: B loc_127
+            loc_127 - CODE: 0x00004C50 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_128 - CODE: 0x00004C58 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_129 - CODE: 0x00004C60 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_130 - CODE: 0x00004C68 4A 04 0B 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, A937716D0A0C3920(#A937716D0A0C3920)
+            loc_131 - CODE: 0x00004C70 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_132 - CODE: 0x00004C78 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_133 - CODE: 0x00004C80 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_134 - CODE: 0x00004C88 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_135 - CODE: 0x00004C90 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_136 - CODE: 0x00004C98 1C 03 03 03 DC::kCallFf: ( set-boolean '#A937716D0A0C3920 '#0000000000000001 'self )
+            loc_137 - CODE: 0x00004CA0 2D 19 00 01 DC::kBranch: B loc_281
+            loc_138 - CODE: 0x00004CA8 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_139 - CODE: 0x00004CB0 0C 04 05 00 DC::kLoadU16Immediate: R4, 5 | (0 << 0x8)
+            loc_140 - CODE: 0x00004CB8 20 03 03 04 DC::kIlt: R3 < R4
+            loc_141 - CODE: 0x00004CC0 2F 95 03 00 DC::kBranchIfNot: B loc_149
+            loc_142 - CODE: 0x00004CC8 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_143 - CODE: 0x00004CD0 4A 04 0C 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, DBCE1B0C661DE2CD(#DBCE1B0C661DE2CD)
+            loc_144 - CODE: 0x00004CD8 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_145 - CODE: 0x00004CE0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_146 - CODE: 0x00004CE8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_147 - CODE: 0x00004CF0 1C 03 03 02 DC::kCallFf: ( get-boolean '#DBCE1B0C661DE2CD 'self )
+            loc_148 - CODE: 0x00004CF8 30 03 03 00 DC::kNot: R3 R3
+            loc_149 - CODE: 0x00004D00 2F A1 03 00 DC::kBranchIfNot: B loc_150
+            loc_150 - CODE: 0x00004D08 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_151 - CODE: 0x00004D10 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_152 - CODE: 0x00004D18 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_153 - CODE: 0x00004D20 4A 04 0C 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, DBCE1B0C661DE2CD(#DBCE1B0C661DE2CD)
+            loc_154 - CODE: 0x00004D28 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_155 - CODE: 0x00004D30 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_156 - CODE: 0x00004D38 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_157 - CODE: 0x00004D40 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_158 - CODE: 0x00004D48 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_159 - CODE: 0x00004D50 1C 03 03 03 DC::kCallFf: ( set-boolean '#DBCE1B0C661DE2CD '#0000000000000001 'self )
+            loc_160 - CODE: 0x00004D58 2D 19 00 01 DC::kBranch: B loc_281
+            loc_161 - CODE: 0x00004D60 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_162 - CODE: 0x00004D68 0C 04 04 00 DC::kLoadU16Immediate: R4, 4 | (0 << 0x8)
+            loc_163 - CODE: 0x00004D70 20 03 03 04 DC::kIlt: R3 < R4
+            loc_164 - CODE: 0x00004D78 2F AC 03 00 DC::kBranchIfNot: B loc_172
+            loc_165 - CODE: 0x00004D80 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_166 - CODE: 0x00004D88 4A 04 0D 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 6661D716D631C5BA(#6661D716D631C5BA)
+            loc_167 - CODE: 0x00004D90 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_168 - CODE: 0x00004D98 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_169 - CODE: 0x00004DA0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_170 - CODE: 0x00004DA8 1C 03 03 02 DC::kCallFf: ( get-boolean '#6661D716D631C5BA 'self )
+            loc_171 - CODE: 0x00004DB0 30 03 03 00 DC::kNot: R3 R3
+            loc_172 - CODE: 0x00004DB8 2F B8 03 00 DC::kBranchIfNot: B loc_173
+            loc_173 - CODE: 0x00004DC0 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_174 - CODE: 0x00004DC8 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_175 - CODE: 0x00004DD0 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_176 - CODE: 0x00004DD8 4A 04 0D 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 6661D716D631C5BA(#6661D716D631C5BA)
+            loc_177 - CODE: 0x00004DE0 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_178 - CODE: 0x00004DE8 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_179 - CODE: 0x00004DF0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_180 - CODE: 0x00004DF8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_181 - CODE: 0x00004E00 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_182 - CODE: 0x00004E08 1C 03 03 03 DC::kCallFf: ( set-boolean '#6661D716D631C5BA '#0000000000000001 'self )
+            loc_183 - CODE: 0x00004E10 2D 19 00 01 DC::kBranch: B loc_281
+            loc_184 - CODE: 0x00004E18 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_185 - CODE: 0x00004E20 0C 04 03 00 DC::kLoadU16Immediate: R4, 3 | (0 << 0x8)
+            loc_186 - CODE: 0x00004E28 20 03 03 04 DC::kIlt: R3 < R4
+            loc_187 - CODE: 0x00004E30 2F C3 03 00 DC::kBranchIfNot: B loc_195
+            loc_188 - CODE: 0x00004E38 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_189 - CODE: 0x00004E40 4A 04 0E 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, E1772EEC8C88B807(#E1772EEC8C88B807)
+            loc_190 - CODE: 0x00004E48 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_191 - CODE: 0x00004E50 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_192 - CODE: 0x00004E58 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_193 - CODE: 0x00004E60 1C 03 03 02 DC::kCallFf: ( get-boolean '#E1772EEC8C88B807 'self )
+            loc_194 - CODE: 0x00004E68 30 03 03 00 DC::kNot: R3 R3
+            loc_195 - CODE: 0x00004E70 2F CF 03 00 DC::kBranchIfNot: B loc_196
+            loc_196 - CODE: 0x00004E78 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_197 - CODE: 0x00004E80 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_198 - CODE: 0x00004E88 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_199 - CODE: 0x00004E90 4A 04 0E 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, E1772EEC8C88B807(#E1772EEC8C88B807)
+            loc_200 - CODE: 0x00004E98 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_201 - CODE: 0x00004EA0 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_202 - CODE: 0x00004EA8 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_203 - CODE: 0x00004EB0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_204 - CODE: 0x00004EB8 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_205 - CODE: 0x00004EC0 1C 03 03 03 DC::kCallFf: ( set-boolean '#E1772EEC8C88B807 '#0000000000000001 'self )
+            loc_206 - CODE: 0x00004EC8 2D 19 00 01 DC::kBranch: B loc_281
+            loc_207 - CODE: 0x00004ED0 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_208 - CODE: 0x00004ED8 0C 04 02 00 DC::kLoadU16Immediate: R4, 2 | (0 << 0x8)
+            loc_209 - CODE: 0x00004EE0 20 03 03 04 DC::kIlt: R3 < R4
+            loc_210 - CODE: 0x00004EE8 2F DA 03 00 DC::kBranchIfNot: B loc_218
+            loc_211 - CODE: 0x00004EF0 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_212 - CODE: 0x00004EF8 4A 04 0F 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, AFBEF0F367C24B74(#AFBEF0F367C24B74)
+            loc_213 - CODE: 0x00004F00 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_214 - CODE: 0x00004F08 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_215 - CODE: 0x00004F10 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_216 - CODE: 0x00004F18 1C 03 03 02 DC::kCallFf: ( get-boolean '#AFBEF0F367C24B74 'self )
+            loc_217 - CODE: 0x00004F20 30 03 03 00 DC::kNot: R3 R3
+            loc_218 - CODE: 0x00004F28 2F E6 03 00 DC::kBranchIfNot: B loc_219
+            loc_219 - CODE: 0x00004F30 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_220 - CODE: 0x00004F38 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_221 - CODE: 0x00004F40 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_222 - CODE: 0x00004F48 4A 04 0F 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, AFBEF0F367C24B74(#AFBEF0F367C24B74)
+            loc_223 - CODE: 0x00004F50 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_224 - CODE: 0x00004F58 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_225 - CODE: 0x00004F60 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_226 - CODE: 0x00004F68 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_227 - CODE: 0x00004F70 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_228 - CODE: 0x00004F78 1C 03 03 03 DC::kCallFf: ( set-boolean '#AFBEF0F367C24B74 '#0000000000000001 'self )
+            loc_229 - CODE: 0x00004F80 2D 19 00 01 DC::kBranch: B loc_281
+            loc_230 - CODE: 0x00004F88 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_231 - CODE: 0x00004F90 0C 04 01 00 DC::kLoadU16Immediate: R4, 1 | (0 << 0x8)
+            loc_232 - CODE: 0x00004F98 20 03 03 04 DC::kIlt: R3 < R4
+            loc_233 - CODE: 0x00004FA0 2F F1 03 00 DC::kBranchIfNot: B loc_241
+            loc_234 - CODE: 0x00004FA8 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_235 - CODE: 0x00004FB0 4A 04 10 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 115E43488ECF5F51(#115E43488ECF5F51)
+            loc_236 - CODE: 0x00004FB8 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_237 - CODE: 0x00004FC0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_238 - CODE: 0x00004FC8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_239 - CODE: 0x00004FD0 1C 03 03 02 DC::kCallFf: ( get-boolean '#115E43488ECF5F51 'self )
+            loc_240 - CODE: 0x00004FD8 30 03 03 00 DC::kNot: R3 R3
+            loc_241 - CODE: 0x00004FE0 2F FD 03 00 DC::kBranchIfNot: B loc_242
+            loc_242 - CODE: 0x00004FE8 15 03 06 00 DC::kLookupInteger/kLookupFloat: R3 R6 -> hashid: 0x6F4191302AE882D4(#6F4191302AE882D4)
+            loc_243 - CODE: 0x00004FF0 1B 03 03 00 DC::kCall: ( #6F4191302AE882D4 )
+            loc_244 - CODE: 0x00004FF8 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_245 - CODE: 0x00005000 4A 04 10 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 115E43488ECF5F51(#115E43488ECF5F51)
+            loc_246 - CODE: 0x00005008 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_247 - CODE: 0x00005010 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_248 - CODE: 0x00005018 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_249 - CODE: 0x00005020 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_250 - CODE: 0x00005028 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_251 - CODE: 0x00005030 1C 03 03 03 DC::kCallFf: ( set-boolean '#115E43488ECF5F51 '#0000000000000001 'self )
+            loc_252 - CODE: 0x00005038 2D 19 00 01 DC::kBranch: B loc_281
+            loc_253 - CODE: 0x00005040 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_254 - CODE: 0x00005048 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_255 - CODE: 0x00005050 20 03 03 04 DC::kIlt: R3 < R4
+            loc_256 - CODE: 0x00005058 2F 04 03 01 DC::kBranchIfNot: B loc_260
+            loc_257 - CODE: 0x00005060 43 03 02 00 DC::kMoveInteger/kMovePointer/kMove: R3, R2
+            loc_258 - CODE: 0x00005068 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_259 - CODE: 0x00005070 20 03 03 04 DC::kIlt: R3 < R4
+            loc_260 - CODE: 0x00005078 2F 0C 03 01 DC::kBranchIfNot: B loc_268
+            loc_261 - CODE: 0x00005080 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0x00C080FBFC4C4D86(get-boolean)
+            loc_262 - CODE: 0x00005088 4A 04 11 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 14E0C7ACE1E6093E(#14E0C7ACE1E6093E)
+            loc_263 - CODE: 0x00005090 4A 05 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 2D19E518D40792B7(self)
+            loc_264 - CODE: 0x00005098 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_265 - CODE: 0x000050A0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_266 - CODE: 0x000050A8 1C 03 03 02 DC::kCallFf: ( get-boolean '#14E0C7ACE1E6093E 'self )
+            loc_267 - CODE: 0x000050B0 30 03 03 00 DC::kNot: R3 R3
+            loc_268 - CODE: 0x000050B8 2F 18 03 01 DC::kBranchIfNot: B loc_269
+            loc_269 - CODE: 0x000050C0 15 03 12 00 DC::kLookupInteger/kLookupFloat: R3 R18 -> hashid: 0x8C7D49D0F2AF28FC(#8C7D49D0F2AF28FC)
+            loc_270 - CODE: 0x000050C8 1B 03 03 00 DC::kCall: ( #8C7D49D0F2AF28FC )
+            loc_271 - CODE: 0x000050D0 15 03 07 00 DC::kLookupInteger/kLookupFloat: R3 R7 -> hashid: 0xFF17C0DCE7D03192(set-boolean)
+            loc_272 - CODE: 0x000050D8 4A 04 11 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R4, 14E0C7ACE1E6093E(#14E0C7ACE1E6093E)
+            loc_273 - CODE: 0x000050E0 0C 05 01 00 DC::kLoadU16Immediate: R5, 1 | (0 << 0x8)
+            loc_274 - CODE: 0x000050E8 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_275 - CODE: 0x000050F0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_276 - CODE: 0x000050F8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_277 - CODE: 0x00005100 43 33 06 00 DC::kMoveInteger/kMovePointer/kMove: R51, R6
+            loc_278 - CODE: 0x00005108 1C 03 03 03 DC::kCallFf: ( set-boolean '#14E0C7ACE1E6093E '#0000000000000001 'self )
+            loc_279 - CODE: 0x00005110 2D 19 00 01 DC::kBranch: B loc_281
+            loc_280 - CODE: 0x00005118 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_281 - CODE: 0x00005120 15 03 13 00 DC::kLookupInteger/kLookupFloat: R3 R19 -> hashid: 0xC2D515031851B7EF(gui2-set-widget-text-formatted)
+            loc_282 - CODE: 0x00005128 15 04 14 00 DC::kLookupInteger/kLookupFloat: R4 R20 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_283 - CODE: 0x00005130 4A 05 15 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 5899C58491C7718D(#5899C58491C7718D)
+            loc_284 - CODE: 0x00005138 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_285 - CODE: 0x00005140 43 31 05 00 DC::kMoveInteger/kMovePointer/kMove: R49, R5
+            loc_286 - CODE: 0x00005148 43 32 06 00 DC::kMoveInteger/kMovePointer/kMove: R50, R6
+            loc_287 - CODE: 0x00005150 1C 04 04 02 DC::kCallFf: ( get-symbol '#5899C58491C7718D 'self )
+            loc_288 - CODE: 0x00005158 15 05 16 00 DC::kLookupInteger/kLookupFloat: R5 R22 -> hashid: 0xD82EC0D287B608D7(cipher-box-formatted-number-string)
+            loc_289 - CODE: 0x00005160 4A 06 17 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2F65A852A8F10F99(#2F65A852A8F10F99)
+            loc_290 - CODE: 0x00005168 43 07 01 00 DC::kMoveInteger/kMovePointer/kMove: R7, R1
+            loc_291 - CODE: 0x00005170 43 08 02 00 DC::kMoveInteger/kMovePointer/kMove: R8, R2
+            loc_292 - CODE: 0x00005178 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_293 - CODE: 0x00005180 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_294 - CODE: 0x00005188 43 31 06 00 DC::kMoveInteger/kMovePointer/kMove: R49, R6
+            loc_295 - CODE: 0x00005190 43 32 07 00 DC::kMoveInteger/kMovePointer/kMove: R50, R7
+            loc_296 - CODE: 0x00005198 43 33 08 00 DC::kMoveInteger/kMovePointer/kMove: R51, R8
+            loc_297 - CODE: 0x000051A0 43 34 09 00 DC::kMoveInteger/kMovePointer/kMove: R52, R9
+            loc_298 - CODE: 0x000051A8 43 35 0A 00 DC::kMoveInteger/kMovePointer/kMove: R53, R10
+            loc_299 - CODE: 0x000051B0 1C 05 05 05 DC::kCallFf: ( cipher-box-formatted-number-string '#2F65A852A8F10F99 '#83A985E900000000 '#83A985E900000000 '#0000000000000000 '#0000000000000000 )
+            loc_300 - CODE: 0x000051B8 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_301 - CODE: 0x000051C0 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_302 - CODE: 0x000051C8 1C 03 03 02 DC::kCallFf: ( gui2-set-widget-text-formatted 'get-symbol 'cipher-box-formatted-number-string )
+            loc_303 - CODE: 0x000051D0 43 03 03 00 DC::kMoveInteger/kMovePointer/kMove: R3, R3
+            loc_304 - CODE: 0x000051D8 43 02 03 00 DC::kMoveInteger/kMovePointer/kMove: R2, R3
+            loc_305 - CODE: 0x000051E0 43 01 02 00 DC::kMoveInteger/kMovePointer/kMove: R1, R2
+            loc_306 - CODE: 0x000051E8 43 00 01 00 DC::kMoveInteger/kMovePointer/kMove: R0, R1
+            loc_307 - CODE: 0x000051F0 2D 35 00 01 DC::kBranch: B loc_309
+            loc_308 - CODE: 0x000051F8 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_309 - CODE: 0x00005200 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+  )
+  (state ("countdown-paused")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00005E70 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3D1686E42EE91A7E(gui2-set-widget-state)
+            loc_1 - CODE: 0x00005E78 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00005E80 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 9901994042F87AB9(countdown-paused)
+            loc_3 - CODE: 0x00005E88 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x00005E90 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x00005E98 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00005EA0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_7 - CODE: 0x00005EA8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_8 - CODE: 0x00005EB0 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_9 - CODE: 0x00005EB8 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_10 - CODE: 0x00005EC0 43 35 05 00 DC::kMoveInteger/kMovePointer/kMove: R53, R5
+            loc_11 - CODE: 0x00005EC8 1C 00 00 05 DC::kCallFf: ( gui2-set-widget-state 'self 'countdown-paused '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_12 - CODE: 0x00005ED0 00 00 00 00 DC::kScriptCodeReturn: 0x3D1686E42EE91A7E
+        )
+      )
+    )
+    (on (update)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00006650 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x6932BC7439D3BB31(timer-running?)
+            loc_1 - CODE: 0x00006658 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_2 - CODE: 0x00006660 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_3 - CODE: 0x00006668 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_4 - CODE: 0x00006670 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_5 - CODE: 0x00006678 1B 00 00 02 DC::kCall: ( timer-running? 'pause-timer 'self )
+            loc_6 - CODE: 0x00006680 2F 32 00 00 DC::kBranchIfNot: B loc_50
+            loc_7 - CODE: 0x00006688 15 00 03 00 DC::kLookupInteger/kLookupFloat: R0 R3 -> hashid: 0x83A985E93B103FE7(get-timer-value)
+            loc_8 - CODE: 0x00006690 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, A61278CFA41FC751(pause-timer)
+            loc_9 - CODE: 0x00006698 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 2D19E518D40792B7(self)
+            loc_10 - CODE: 0x000066A0 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_11 - CODE: 0x000066A8 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_12 - CODE: 0x000066B0 1B 00 00 02 DC::kCall: ( get-timer-value 'pause-timer 'self )
+            loc_13 - CODE: 0x000066B8 43 01 00 00 DC::kMoveInteger/kMovePointer/kMove: R1, R0
+            loc_14 - CODE: 0x000066C0 19 01 01 00 DC::kCastInteger: R1, S1
+            loc_15 - CODE: 0x000066C8 43 02 00 00 DC::kMoveInteger/kMovePointer/kMove: R2, R0
+            loc_16 - CODE: 0x000066D0 43 03 01 00 DC::kMoveInteger/kMovePointer/kMove: R3, R1
+            loc_17 - CODE: 0x000066D8 1A 03 03 00 DC::kCastFloat: S3, S3
+            loc_18 - CODE: 0x000066E0 06 02 02 03 DC::kScriptCodeFSubtract: S2, S2, S3
+            loc_19 - CODE: 0x000066E8 0C 03 0A 00 DC::kLoadU16Immediate: R3, 10 | (0 << 0x8)
+            loc_20 - CODE: 0x000066F0 1A 03 03 00 DC::kCastFloat: S3, S3
+            loc_21 - CODE: 0x000066F8 07 02 02 03 DC::kScriptCodeFMultiply: S2, S2, S3
+            loc_22 - CODE: 0x00006700 19 02 02 00 DC::kCastInteger: R2, S2
+            loc_23 - CODE: 0x00006708 15 03 04 00 DC::kLookupInteger/kLookupFloat: R3 R4 -> hashid: 0xC2D515031851B7EF(gui2-set-widget-text-formatted)
+            loc_24 - CODE: 0x00006710 15 04 05 00 DC::kLookupInteger/kLookupFloat: R4 R5 -> hashid: 0xF03BEED169C9A5C6(get-symbol)
+            loc_25 - CODE: 0x00006718 4A 05 06 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R5, 5899C58491C7718D(#5899C58491C7718D)
+            loc_26 - CODE: 0x00006720 4A 06 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2D19E518D40792B7(self)
+            loc_27 - CODE: 0x00006728 43 31 05 00 DC::kMoveInteger/kMovePointer/kMove: R49, R5
+            loc_28 - CODE: 0x00006730 43 32 06 00 DC::kMoveInteger/kMovePointer/kMove: R50, R6
+            loc_29 - CODE: 0x00006738 1C 04 04 02 DC::kCallFf: ( get-symbol '#5899C58491C7718D 'self )
+            loc_30 - CODE: 0x00006740 15 05 07 00 DC::kLookupInteger/kLookupFloat: R5 R7 -> hashid: 0xD82EC0D287B608D7(cipher-box-formatted-number-string)
+            loc_31 - CODE: 0x00006748 4A 06 08 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R6, 2F65A852A8F10F99(#2F65A852A8F10F99)
+            loc_32 - CODE: 0x00006750 43 07 01 00 DC::kMoveInteger/kMovePointer/kMove: R7, R1
+            loc_33 - CODE: 0x00006758 43 08 02 00 DC::kMoveInteger/kMovePointer/kMove: R8, R2
+            loc_34 - CODE: 0x00006760 0C 09 00 00 DC::kLoadU16Immediate: R9, 0 | (0 << 0x8)
+            loc_35 - CODE: 0x00006768 0C 0A 00 00 DC::kLoadU16Immediate: R10, 0 | (0 << 0x8)
+            loc_36 - CODE: 0x00006770 43 31 06 00 DC::kMoveInteger/kMovePointer/kMove: R49, R6
+            loc_37 - CODE: 0x00006778 43 32 07 00 DC::kMoveInteger/kMovePointer/kMove: R50, R7
+            loc_38 - CODE: 0x00006780 43 33 08 00 DC::kMoveInteger/kMovePointer/kMove: R51, R8
+            loc_39 - CODE: 0x00006788 43 34 09 00 DC::kMoveInteger/kMovePointer/kMove: R52, R9
+            loc_40 - CODE: 0x00006790 43 35 0A 00 DC::kMoveInteger/kMovePointer/kMove: R53, R10
+            loc_41 - CODE: 0x00006798 1C 05 05 05 DC::kCallFf: ( cipher-box-formatted-number-string '#2F65A852A8F10F99 '#83A985E900000000 '#83A985E900000000 '#0000000000000000 '#0000000000000000 )
+            loc_42 - CODE: 0x000067A0 43 31 04 00 DC::kMoveInteger/kMovePointer/kMove: R49, R4
+            loc_43 - CODE: 0x000067A8 43 32 05 00 DC::kMoveInteger/kMovePointer/kMove: R50, R5
+            loc_44 - CODE: 0x000067B0 1C 03 03 02 DC::kCallFf: ( gui2-set-widget-text-formatted 'get-symbol 'cipher-box-formatted-number-string )
+            loc_45 - CODE: 0x000067B8 43 03 03 00 DC::kMoveInteger/kMovePointer/kMove: R3, R3
+            loc_46 - CODE: 0x000067C0 43 02 03 00 DC::kMoveInteger/kMovePointer/kMove: R2, R3
+            loc_47 - CODE: 0x000067C8 43 01 02 00 DC::kMoveInteger/kMovePointer/kMove: R1, R2
+            loc_48 - CODE: 0x000067D0 43 00 01 00 DC::kMoveInteger/kMovePointer/kMove: R0, R1
+            loc_49 - CODE: 0x000067D8 2D 33 00 00 DC::kBranch: B loc_51
+            loc_50 - CODE: 0x000067E0 0C 00 00 00 DC::kLoadU16Immediate: R0, 0 | (0 << 0x8)
+            loc_51 - CODE: 0x000067E8 00 00 00 00 DC::kScriptCodeReturn: 0x0000000000000000
+        )
+      )
+    )
+  )
+  (state ("countdown-after")
+    (on (start)
+      (track ("main")
+        (
+            loc_0 - CODE: 0x00003308 15 00 00 00 DC::kLookupInteger/kLookupFloat: R0 R0 -> hashid: 0x3D1686E42EE91A7E(gui2-set-widget-state)
+            loc_1 - CODE: 0x00003310 4A 01 01 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R1, 2D19E518D40792B7(self)
+            loc_2 - CODE: 0x00003318 4A 02 02 00 DC::kLoadStaticI64Imm/kLoadStaticU64Imm: R2, 65FBD5FA8512491F(countdown-after)
+            loc_3 - CODE: 0x00003320 0C 03 00 00 DC::kLoadU16Immediate: R3, 0 | (0 << 0x8)
+            loc_4 - CODE: 0x00003328 0C 04 00 00 DC::kLoadU16Immediate: R4, 0 | (0 << 0x8)
+            loc_5 - CODE: 0x00003330 0C 05 00 00 DC::kLoadU16Immediate: R5, 0 | (0 << 0x8)
+            loc_6 - CODE: 0x00003338 43 31 01 00 DC::kMoveInteger/kMovePointer/kMove: R49, R1
+            loc_7 - CODE: 0x00003340 43 32 02 00 DC::kMoveInteger/kMovePointer/kMove: R50, R2
+            loc_8 - CODE: 0x00003348 43 33 03 00 DC::kMoveInteger/kMovePointer/kMove: R51, R3
+            loc_9 - CODE: 0x00003350 43 34 04 00 DC::kMoveInteger/kMovePointer/kMove: R52, R4
+            loc_10 - CODE: 0x00003358 43 35 05 00 DC::kMoveInteger/kMovePointer/kMove: R53, R5
+            loc_11 - CODE: 0x00003360 1C 00 00 05 DC::kCallFf: ( gui2-set-widget-state 'self 'countdown-after '#0000000000000000 '#0000000000000000 '#0000000000000000 )
+            loc_12 - CODE: 0x00003368 00 00 00 00 DC::kScriptCodeReturn: 0x3D1686E42EE91A7E
+        )
+      )
+    )
+  )
+)
+
