@@ -1,3 +1,5 @@
+LookupPointer            r0, disallow-normal-tension
+CallFf                   r0, r0, 0
 LookupPointer            r0, 0x381E35AD0689E81D
 LoadU16Imm               r49, 112
 CallFf                   r0, r0, 1
