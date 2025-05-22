@@ -1,0 +1,6 @@
+LookupPointer r1, set-int32
+LoadStaticU64Imm r49, 0xA9839F519D50031B
+LoadU16Imm r50, 20
+LoadStaticU64Imm r51, self
+CallFf r1, r1, 3
+Return r0

@@ -1,0 +1,8 @@
+00000000    15 00 00 00 00 00 00 00  00    LookupPointer            r0, set-boolean
+00000008    4A 31 01 00 00 00 00 00  01    LoadStaticU64Imm         r49, 0xAAC295A98AA9D868                         ; r49 = "0xAAC295A98AA9D868"
+00000010    0C 32 01 00 00 00 00 00  02    LoadU16Imm               r50, 1                                          ; r50 = 1
+00000018    4A 31 02 00 00 00 00 00  03    LoadStaticU64Imm         r49, 0x2D19E518D40792B7                         ; r49 = "self"
+00000020    1C 00 00 02 00 00 00 00  04    CallFf                   r0, r0, 2                                       ; far call, 2 args
+00000028    92 31 D0 E7 DC C0 17 FF     FF17C0DCE7D03192       set-boolean
+00000030    68 D8 A9 8A A9 95 C2 AA     AAC295A98AA9D868       0xAAC295A98AA9D868
+00000038    B7 92 07 D4 18 E5 19 2D     2D19E518D40792B7       self

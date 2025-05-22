@@ -1,0 +1,5 @@
+LookupPointer r0, set-boolean
+LoadStaticU64Imm r49, 0xAAC295A98AA9D868
+LoadU16Imm r50, 1
+LoadStaticU64Imm r49, self
+CallFf r0, r0, 2
