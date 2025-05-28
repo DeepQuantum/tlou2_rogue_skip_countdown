@@ -91,3 +91,13 @@ A458: location of old pointer to lambda struct of function to be overwritten
 B916868357E74636: start timer
 
 173F533266965DC7: number of enemies
+
+
+f820 -> f808
+
+3478 -> 3480
+
+
+0x000148E0 is the pointer to function we want replace, it gets pointed to from location: either 9a80, 9c90 or 9ed0
+
+function we want to insert: 99f0

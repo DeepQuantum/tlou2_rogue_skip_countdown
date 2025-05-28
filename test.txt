@@ -1,0 +1,2 @@
+LoadStaticI32Imm r0, 324
+Return r0
